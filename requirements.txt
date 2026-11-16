@@ -1,0 +1,7 @@
+# Keep the Day 6 inference stack for compatible query embeddings.
+# CPU installation: uv pip sync --python .venv/bin/python --torch-backend cpu requirements.lock
+numpy==2.5.4
+sentence-transformers==6.3.0
+psycopg[binary]==3.3.8
+python-dotenv==1.2.4
+pypdf==6.21.4

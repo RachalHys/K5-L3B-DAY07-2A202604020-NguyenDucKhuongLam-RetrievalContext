@@ -1,0 +1,75 @@
+{
+  "cases": 22,
+  "answerable": 20,
+  "unanswerable": 2,
+  "hit1": {
+    "n": 16,
+    "N": 20,
+    "rate": 0.8
+  },
+  "hit3": {
+    "n": 17,
+    "N": 20,
+    "rate": 0.85
+  },
+  "context_evidence": {
+    "n": 12,
+    "N": 20,
+    "rate": 0.6
+  },
+  "errors": 0,
+  "median_end_to_end_ms": 4113.137469500543,
+  "original_ranking_median_ms": 195.98238199978368,
+  "estimated_cost_usd": 0.0035997,
+  "cost_complete": true,
+  "llm_calls": 45,
+  "search_calls": 22,
+  "search_call_distribution": {
+    "1": 22
+  },
+  "prompt_tokens": 24277,
+  "completion_tokens": 2344,
+  "declared_status_disagreements": [
+    "q12"
+  ],
+  "agent": {
+    "cases": 22,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 22,
+      "N": 22
+    },
+    "grounded_answer": {
+      "0": 6,
+      "1": 2,
+      "2": 12,
+      "N": 20,
+      "mean": 1.3
+    },
+    "citation_validity": {
+      "n": 14,
+      "N": 16
+    },
+    "answer_citation_coverage": {
+      "n": 15,
+      "N": 15
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 5,
+      "N": 20
+    }
+  },
+  "reviewed_context_grades": {
+    "0": 3,
+    "1": 5,
+    "2": 12
+  },
+  "selection_scores": {
+    "grounded_points_per_answerable_attempt": 1.3,
+    "correct_abstentions_per_unanswerable_attempt": 1.0
+  }
+}

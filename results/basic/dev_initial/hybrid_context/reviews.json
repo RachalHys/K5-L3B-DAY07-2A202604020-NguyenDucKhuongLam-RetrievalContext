@@ -1,0 +1,416 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "06ca7329385daf3302d76086",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "f804cf67e83eaf048be3f5c1",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "d8be52d3b2b4e1c69165c441",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      },
+      {
+        "id": "90744e137e905f6cd2215046",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      },
+      {
+        "id": "4bf46015f075bd8ce0eee008",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "d28f71367ba45095da84af43",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "71ce8ce9c9e9832ca01ec4ee",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "fc04cdf309a839ca381ccd28",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "a398c7b940d07b18c407df18",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q08",
+    "context_grade": 2,
+    "reason": "Evidence đúng có trong context, nhưng model lặp citation bị cắt thiếu ký tự; hết model-call limit. Giữ nguyên lỗi, không tạo nhãn answer giả.",
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "4038162e480af7592509329b",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "5b8c5edbc0c738b154e5cffa",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "1ae69a7b1621b5450a67d629",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "79aa669c56bb5e50ec6a988c",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "3a75c9a10ed9c282cf5128e3",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "9b6455ce39534884db106c06",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true,
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "dc6a32b8b798879b5745039b",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      },
+      {
+        "id": "fbf37409c0464b32204cc834",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "2d1e9555f0ed348901365f57",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "913151f3a5b4252cdc3ca26e",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "ed5f55f8c1898233b17800da",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "46f091983d9f3eb3b4d621ce",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true,
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "4acf69a1db5eef93d51af4f4",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      },
+      {
+        "id": "58888caf0ede18051e368e29",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim được gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "dev_u01",
+    "context_grade": 0,
+    "answer_refused": true,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng, không đoán số liệu; các đoạn liên quan không cung cấp chi tiết được hỏi.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "dev_u02",
+    "context_grade": 0,
+    "answer_refused": true,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng, không đoán số liệu; các đoạn liên quan không cung cấp chi tiết được hỏi.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  }
+]

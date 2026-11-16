@@ -31,3 +31,13 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+
+## Cài đặt bài làm
+
+Xem [hướng dẫn cài đặt và kết nối Day 6](docs/setup.md),
+[corpus cơ bản](data/basic/README.md) và [bộ câu hỏi đánh giá](benchmark/README.md).
+
+Chạy agent và thí nghiệm theo [hướng dẫn thực nghiệm](docs/experiments.md).
+Kết quả phần cơ bản, phân tích lỗi và giới hạn được trình bày trong
+[báo cáo cá nhân](report/individual/2A202604020_NguyenDucKhuongLam.md),
+kèm [trace và nhãn đánh giá](results/basic/README.md).

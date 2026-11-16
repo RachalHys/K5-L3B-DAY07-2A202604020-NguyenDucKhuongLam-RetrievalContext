@@ -1,0 +1,119 @@
+[
+  {
+    "query_id": "test01",
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Overview, trang PDF 29: DWI đo diffusion/movement of water trong brain tissue. Câu trả lời nêu đúng đối tượng và quá trình; citation chứa nguyên định nghĩa.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "91ae70ac344482aed31c6e2a",
+        "supported": true,
+        "reason": "Overview, trang PDF 29: DWI đo diffusion/movement of water trong brain tissue. Câu trả lời nêu đúng đối tượng và quá trình; citation chứa nguyên định nghĩa."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "test02",
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Overview, trang PDF 15: khoảng 25% người hồi phục sau stroke đầu tiên tái phát trong 5 năm. Đúng tỷ lệ, quần thể và thời hạn; citation hỗ trợ đủ điều kiện.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "7b2a51ff4c95070421b39299",
+        "supported": true,
+        "reason": "Overview, trang PDF 15: khoảng 25% người hồi phục sau stroke đầu tiên tái phát trong 5 năm. Đúng tỷ lệ, quần thể và thời hạn; citation hỗ trợ đủ điều kiện."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "test03",
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "FAST tháng 5/2024, trang PDF 1: mục Speech Difficulty hỏi speech slurred or strange. Câu trả lời giữ đủ hai đặc điểm và cite đúng chunk.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "2d1e9555f0ed348901365f57",
+        "supported": true,
+        "reason": "FAST tháng 5/2024, trang PDF 1: mục Speech Difficulty hỏi speech slurred or strange. Câu trả lời giữ đủ hai đặc điểm và cite đúng chunk."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "test04",
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Rehabilitation 2020, trang PDF 12: social workers hỗ trợ financial decisions và kế hoạch về nhà hoặc nơi ở mới. Xác định đúng nhóm chuyên gia, với citation trực tiếp.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "3329044d3492b4ced38a8f86",
+        "supported": true,
+        "reason": "Rehabilitation 2020, trang PDF 12: social workers hỗ trợ financial decisions và kế hoạch về nhà hoặc nơi ở mới. Xác định đúng nhóm chuyên gia, với citation trực tiếp."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "test05",
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Overview, trang PDF 32: hai nhóm blood-thinning medications là antiplatelets và anticoagulants để ngừa ischemic stroke. Câu trả lời và citation hỗ trợ đủ cả hai nhóm.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "56d87ed871d20ffb8416419c",
+        "supported": true,
+        "reason": "Overview, trang PDF 32: hai nhóm blood-thinning medications là antiplatelets và anticoagulants để ngừa ischemic stroke. Câu trả lời và citation hỗ trợ đủ cả hai nhóm."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "test_u01",
+    "context_grade": 0,
+    "answer_refused": true,
+    "reason": "Từ chối rõ ràng, không đưa liều mg/kg. Đối chiếu scope absence_check: nguồn chỉ nêu đường IV, thời gian điều trị và nguy cơ chảy máu, không có liều theo cân nặng; không suy absence chỉ từ top-k.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "abstention_correct": true
+  },
+  {
+    "query_id": "test_u02",
+    "context_grade": 0,
+    "answer_refused": true,
+    "reason": "Từ chối rõ ràng, không đoán phần trăm trở lại công việc trong 6 tháng. Đã đối chiếu fact sheet recovery và toàn scope 2024 trong absence_check; các số liệu survival/language không phải employment rate.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "abstention_correct": true
+  }
+]

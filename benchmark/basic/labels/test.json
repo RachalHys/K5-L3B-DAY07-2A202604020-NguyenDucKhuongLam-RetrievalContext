@@ -1,0 +1,176 @@
+[
+  {
+    "id": "test01",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "It measures the diffusion, or movement, of water molecules in brain tissue.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 29,
+        "evidence": "Diffusion-weighted imaging (DWI, a special type of MRI) measures the diffusion (movement of molecules) of water in brain tissue, which changes during an ischemic stroke."
+      }
+    ],
+    "answer_requirements": [
+      "Movement or diffusion of water molecules in brain tissue."
+    ],
+    "category": "diagnostic_measurement",
+    "origin": {
+      "dataset": "day7_new"
+    }
+  },
+  {
+    "id": "test02",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "About 25 percent.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 15,
+        "evidence": "In fact, about 25 percent of people who recover from their first stroke will have another stroke within 5 years,"
+      }
+    ],
+    "answer_requirements": [
+      "Approximately 25%, for people recovering from their first stroke, over a five-year period."
+    ],
+    "category": "conditional_statistic",
+    "origin": {
+      "dataset": "day7_new"
+    }
+  },
+  {
+    "id": "test03",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Whether speech is slurred or strange.",
+    "gold": [
+      {
+        "source_id": "ninds_fast_2024",
+        "page": 1,
+        "evidence": "Speech Difficulty Is speech slurred or strange?"
+      }
+    ],
+    "answer_requirements": [
+      "Slurred speech.",
+      "Strange speech."
+    ],
+    "category": "recognition",
+    "origin": {
+      "dataset": "day7_new"
+    }
+  },
+  {
+    "id": "test04",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Social workers.",
+    "gold": [
+      {
+        "source_id": "ninds_rehabilitation_2020",
+        "page": 12,
+        "evidence": "Social workers can assist with making financial decisions and plan the return home or to a new living place."
+      }
+    ],
+    "answer_requirements": [
+      "Identify social workers as the specialists."
+    ],
+    "category": "rehabilitation_role",
+    "origin": {
+      "dataset": "day7_new"
+    }
+  },
+  {
+    "id": "test05",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Antiplatelet medicines and anticoagulants.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 32,
+        "evidence": "There are two kinds of blood-thinning medications—antiplatelets and anticoagulants used to prevent ischemic stroke."
+      },
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 31,
+        "evidence": "The most effective kinds of drugs to prevent or treat acute (occurring in the past few hours) ischemic stroke are antithrombotics—blood-thinning medicines which include antiplatelet agents and anticoagulants—and thrombolytics (drugs that break up and dissolve existing clots)."
+      }
+    ],
+    "answer_requirements": [
+      "Antiplatelet medicines.",
+      "Anticoagulants."
+    ],
+    "category": "medication_classes",
+    "origin": {
+      "dataset": "day7_new"
+    }
+  },
+  {
+    "id": "test_u01",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "category": "missing_information",
+    "origin": {
+      "dataset": "day7_new"
+    },
+    "absence_reason": "The documents explain the purpose, intravenous route, treatment windows and bleeding precautions for t-PA, but do not specify a weight-based dose. Cholesterol measurements in mg/dL elsewhere in the overview do not supply a t-PA dose.",
+    "absence_check": {
+      "checked_source_ids": [
+        "ninds_stroke_overview_2020",
+        "ninds_rehabilitation_2020",
+        "ninds_fast_2024",
+        "ninds_prevention_2024",
+        "ninds_recovery_2024"
+      ],
+      "search_terms": [
+        "t-PA",
+        "thrombolytic",
+        "dose",
+        "dosage",
+        "milligram",
+        "mg/kg",
+        "kilogram"
+      ],
+      "related_evidence": [
+        {
+          "source_id": "ninds_stroke_overview_2020",
+          "page": 32,
+          "evidence": "In the 1990s NINDS-funded research found that a thrombolytic drug known as t-PA (tissue plasminogen activator) can be effective if a person receives it intravenously (through a vein) within 3 hours after stroke symptoms have started."
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_u02",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "category": "missing_information",
+    "origin": {
+      "dataset": "day7_new"
+    },
+    "absence_reason": "The recovery fact sheet discusses rehabilitation goals, professionals, survival and language difficulties, but reports no six-month return-to-employment rate. The other 2024 documents do not give that rate either.",
+    "absence_check": {
+      "checked_source_ids": [
+        "ninds_fast_2024",
+        "ninds_prevention_2024",
+        "ninds_recovery_2024"
+      ],
+      "search_terms": [
+        "employment",
+        "work",
+        "vocational",
+        "six months",
+        "6 months",
+        "percent"
+      ],
+      "related_evidence": [
+        {
+          "source_id": "ninds_recovery_2024",
+          "page": 1,
+          "evidence": "Rehabilitation therapy can help people relearn skills affected by the stroke and overcome losses in ability."
+        }
+      ]
+    }
+  }
+]

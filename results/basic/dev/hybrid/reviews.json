@@ -1,0 +1,372 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "06ca7329385daf3302d76086",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "f804cf67e83eaf048be3f5c1",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "d8be52d3b2b4e1c69165c441",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 0,
+    "context_grade": 2,
+    "answer_refused": true,
+    "reason": "Từ chối nhầm dù các đoạn về blockage/thrombolytic có thể hỗ trợ định nghĩa tương đương. Không khớp exact gold nhưng khi đọc nguồn có đủ cơ chế gián đoạn dòng máu.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "71ce8ce9c9e9832ca01ec4ee",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "answer_refused": true,
+    "reason": "Bỏ danh sách sáu hành động, chỉ giữ risk factors/footer; từ chối nhầm.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "a398c7b940d07b18c407df18",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "bd79e3d322f21588b017ea4d",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "answer_refused": false,
+    "reason": "Nêu ba ví dụ walk/language/think, thiếu hai mục tiêu prevent/compensate; citation hỗ trợ các ví dụ nhưng không đủ đáp án.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "6e95851424dab8ef282e0ad9",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "5b8c5edbc0c738b154e5cffa",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "1ae69a7b1621b5450a67d629",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Nguồn về embolism giải thích clot từ tim đi vào động mạch cổ/não, đủ cơ chế được hỏi. Đây là evidence tương đương ngoài quote gold, nên auto context_hit=0 nhưng manual context=2.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "1e53dfb082ec7ba5370e7653",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "3a75c9a10ed9c282cf5128e3",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "9b6455ce39534884db106c06",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "dc6a32b8b798879b5745039b",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q16",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "answer_refused": true,
+    "reason": "Không có arm drift trong context; từ chối nhầm.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "913151f3a5b4252cdc3ca26e",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "answer_refused": true,
+    "reason": "Chỉ có aphasia chung, thiếu subtype receptive và incoherent speech; từ chối nhầm.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý, điều kiện và mốc thời gian được hỏi; từng citation đã đối chiếu đoạn nguồn thực tế trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "46f091983d9f3eb3b4d621ce",
+        "supported": true,
+        "reason": "Nguồn hỗ trợ claim gắn citation."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "answer_refused": true,
+    "reason": "Chỉ nêu home environment và từ chối thông tin family/friends. Model khai answered nhưng thực tế không trả lời nội dung được hỏi.",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "id": "e18a6a76d4bd3bff80b5a533",
+        "supported": false,
+        "reason": "Không hỗ trợ kết luận cả corpus không nói về family/friends."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "dev_u01",
+    "context_grade": 0,
+    "answer_refused": true,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng, không đoán số liệu; các đoạn liên quan không cung cấp chi tiết được hỏi.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "dev_u02",
+    "context_grade": 0,
+    "answer_refused": true,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng, không đoán số liệu; các đoạn liên quan không cung cấp chi tiết được hỏi.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  }
+]

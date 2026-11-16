@@ -1,0 +1,75 @@
+{
+  "config": {
+    "id": "hybrid",
+    "method": "hybrid",
+    "top_k": 3,
+    "budget_chars": 800,
+    "max_searches": 1,
+    "context_policy": "fifo",
+    "hypothesis": "RRF combines lexical specificity and dense semantic similarity without summing raw scores."
+  },
+  "split": "dev",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "none",
+  "endpoint": "https://api.openai.com/v1/chat/completions",
+  "max_completion_tokens": 1200,
+  "temperature": 0,
+  "started_at": "2026-11-16T12:09:17.429857+00:00",
+  "python": "3.12.3",
+  "requirements_sha256": "25f6fd65be118a5355c6c7aa2b56423d7c4beeae5e6fdfed9db13e203115f0f6",
+  "embedding_model": {
+    "name": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "dimensions": 1024,
+    "max_tokens": 512,
+    "normalize_embeddings": true,
+    "precision": "float32",
+    "batch_size": 4,
+    "document_method": "encode",
+    "query_method": "encode",
+    "query_instruction": ""
+  },
+  "packages": {
+    "torch": "2.15.0+cpu",
+    "sentence-transformers": "6.3.0",
+    "numpy": "2.5.4",
+    "psycopg": "3.3.8"
+  },
+  "benchmark_protocol_sha256": "5138e501500a51f816192607393d3d7c57e251fdc9048a462501d147ef8d2f9a",
+  "input_sha256": "d98c85e21ceb2529a059fab5bb7024598447e42ed37f1a0a759dd53134d24550",
+  "config_file_sha256": "6cc4e9c7b5f7526f987c7b36c16208fa7b20404b50b6ca2592dcd8adc0d9a9bc",
+  "code_sha256": {
+    "src/__init__.py": "56bea57545ef2dd889045a70fe3cd42f6654b461a991a2e0d97a8bb01a1ab69d",
+    "src/agent.py": "bfdf97e6b55f66eb42618bb638e6ee8388d22c2174dd05e0cd5d820eeb454c7e",
+    "src/benchmark.py": "d2deab68379161b5c43108dbf2030f1e8e9fbf7233d622a4087e1dd03dba21cf",
+    "src/day6.py": "dbcc08b6bdfb696fa8a0b73f5a14892506dcbadda122eb835e82edf2f649dd31",
+    "src/evaluation.py": "16825f14560986834b057d22e47547794d9d190a7507c650f61f52ec00230042",
+    "src/experiment.py": "ab0a2ef07cd022999a8ce6a421d9de1a9e8df509043f0822ab53f8449254e5a5",
+    "src/fetch_sources.py": "626c9675940021ead6e1de0e8bb7e66b27f6d64375eec2e15aaa4cd0bad60bff",
+    "src/llm.py": "fd937086241cdbd8114c3287c1b5492819bb09300e0ab8471d9594528094b324",
+    "src/retrieval.py": "d4cab8921473ff6f6adcd7708bc4ad32a527cbe9abc32fb1d61c845bb30c5f10",
+    "starter/baseline.py": "03b8b16c42be7d19c820e506f4cea2a7496c462a00c77d1cfc9e7fc972301fdf",
+    "starter/agent_metrics.py": "c82ed0321b2a227fdf3c9d29970c2a4a35d32754d288dc8c14b1a1f10336dfe4"
+  },
+  "system_prompt_sha256": "e2f1723dca01ac068d386ce21a131ddc4db684661a0f36cd01fd7cd5db124e44",
+  "git_head": "c67ec6292cd6d15e6e6cbaa2c7e7260398bb5a19",
+  "setup_seconds": 3.6604898289997436,
+  "pricing": {
+    "model": "gpt-6-luna",
+    "currency": "USD",
+    "input_per_million": 0.1,
+    "cached_input_per_million": 0.01,
+    "cache_write_per_million": 0.125,
+    "output_per_million": 0.5,
+    "checked_at": "2026-11-16",
+    "source": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "scope": "Estimated standard text-token charges from reported API usage; excludes local hardware/electricity and is not an invoice."
+  },
+  "model_settings": {
+    "model": "gpt-6-luna",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "reasoning_effort": "none",
+    "max_completion_tokens": 1200,
+    "temperature": 0
+  }
+}

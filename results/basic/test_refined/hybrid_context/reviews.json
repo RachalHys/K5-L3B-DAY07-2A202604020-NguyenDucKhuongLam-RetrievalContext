@@ -1,0 +1,119 @@
+[
+  {
+    "query_id": "test01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Movement or diffusion of water molecules in brain tissue. Đối chiếu với đúng nguồn, trang và đoạn cite trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "91ae70ac344482aed31c6e2a",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 29: Đủ các ý được hỏi: Movement or diffusion of water molecules in brain tissue. Đối chiếu với đúng nguồn, trang và đoạn cite trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "test02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Approximately 25%, for people recovering from their first stroke, over a five-year period. Đối chiếu với đúng nguồn, trang và đoạn cite trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "7b2a51ff4c95070421b39299",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 15: Đủ các ý được hỏi: Approximately 25%, for people recovering from their first stroke, over a five-year period. Đối chiếu với đúng nguồn, trang và đoạn cite trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "test03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Slurred speech.; Strange speech. Đối chiếu với đúng nguồn, trang và đoạn cite trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "2d1e9555f0ed348901365f57",
+        "supported": true,
+        "reason": "ninds_fast_2024, trang PDF 1: Đủ các ý được hỏi: Slurred speech.; Strange speech. Đối chiếu với đúng nguồn, trang và đoạn cite trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "test04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Identify social workers as the specialists. Đối chiếu với đúng nguồn, trang và đoạn cite trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "3329044d3492b4ced38a8f86",
+        "supported": true,
+        "reason": "ninds_rehabilitation_2020, trang PDF 12: Đủ các ý được hỏi: Identify social workers as the specialists. Đối chiếu với đúng nguồn, trang và đoạn cite trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "test05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Antiplatelet medicines.; Anticoagulants. Đối chiếu với đúng nguồn, trang và đoạn cite trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "56d87ed871d20ffb8416419c",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 32: Đủ các ý được hỏi: Antiplatelet medicines.; Anticoagulants. Đối chiếu với đúng nguồn, trang và đoạn cite trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "test_u01",
+    "context_grade": 0,
+    "answer_refused": true,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng, không đưa số liệu suy đoán. Absence_check bao phủ các nguồn trong filter; context liên quan không có con số được hỏi.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "test_u02",
+    "context_grade": 0,
+    "answer_refused": true,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng, không đưa số liệu suy đoán. Absence_check bao phủ các nguồn trong filter; context liên quan không có con số được hỏi.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  }
+]

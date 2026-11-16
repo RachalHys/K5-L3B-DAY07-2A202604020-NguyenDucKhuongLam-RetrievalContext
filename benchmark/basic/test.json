@@ -1,0 +1,56 @@
+[
+  {
+    "id": "test01",
+    "split": "test",
+    "question": "According to the 2020 overview, what physical process does diffusion-weighted imaging (DWI) measure in brain tissue?",
+    "filter": {
+      "publication_year": 2020
+    }
+  },
+  {
+    "id": "test02",
+    "split": "test",
+    "question": "According to the 2020 overview, approximately what percentage of people who recover from a first stroke have another stroke within five years?",
+    "filter": {
+      "publication_year": 2020
+    }
+  },
+  {
+    "id": "test03",
+    "split": "test",
+    "question": "In the May 2024 FAST fact sheet, which two speech features should be checked for Speech Difficulty?",
+    "filter": {
+      "publication_year": 2024
+    }
+  },
+  {
+    "id": "test04",
+    "split": "test",
+    "question": "In the 2020 rehabilitation booklet, which specialists can help with financial decisions and planning a return home or a move to a new living place?",
+    "filter": {
+      "publication_year": 2020
+    }
+  },
+  {
+    "id": "test05",
+    "split": "test",
+    "question": "According to the 2020 overview, what are the two types of blood-thinning medication used to prevent ischemic stroke?",
+    "filter": {
+      "publication_year": 2020
+    }
+  },
+  {
+    "id": "test_u01",
+    "split": "test",
+    "question": "What intravenous t-PA dose in milligrams per kilogram do these NINDS documents specify for treating ischemic stroke?",
+    "filter": {}
+  },
+  {
+    "id": "test_u02",
+    "split": "test",
+    "question": "According to the May 2024 Know Stroke recovery fact sheet, what percentage of stroke survivors return to paid employment within six months?",
+    "filter": {
+      "publication_year": 2024
+    }
+  }
+]

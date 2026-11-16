@@ -1,0 +1,550 @@
+[
+  {
+    "id": "q01",
+    "answerable": true,
+    "expected_answer": "Blood flow to the brain is interrupted or cut off.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 5,
+        "evidence": "A stroke is a brain attack—a sudden interruption of continuous blood flow to the brain—and a medical emergency. A stroke occurs when a blood vessel in the brain becomes blocked or narrowed, or when a blood vessel bursts and spills blood into the brain."
+      },
+      {
+        "source_id": "ninds_prevention_2024",
+        "page": 1,
+        "evidence": "Stroke occurs when blood flow to the brain is interrupted."
+      },
+      {
+        "source_id": "ninds_fast_2024",
+        "page": 1,
+        "evidence": "About 80% are ischemic strokes, which disrupts blood to the brain. The rest are hemorrhagic strokes, caused by bleeding in or around the brain. The longer blood flow is cut off, the greater the damage."
+      }
+    ],
+    "answer_requirements": [
+      "Blood flow to the brain is interrupted or cut off."
+    ],
+    "category": "definition",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q01"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "answerable": true,
+    "expected_answer": "The symptoms come on suddenly.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 6,
+        "evidence": "The key to recognizing stroke symptoms is that they come on suddenly."
+      },
+      {
+        "source_id": "ninds_fast_2024",
+        "page": 1,
+        "evidence": "More sudden stroke symptoms Numbness or weakness of face, arm, or leg, especially on one side of the body"
+      }
+    ],
+    "answer_requirements": [
+      "The symptoms begin suddenly."
+    ],
+    "category": "symptom_onset",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q02"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "answerable": true,
+    "expected_answer": "A temporary cut-off of blood flow to the brain.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 14,
+        "evidence": "A transient ischemic attack, or TIA, is a temporary cut-off of blood flow to the brain."
+      },
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 14,
+        "evidence": "A TIA occurs when blood flow to part of the brain is blocked, often by a clot, but then dissipates after a short time and the stroke symptoms go away."
+      }
+    ],
+    "answer_requirements": [
+      "A TIA temporarily blocks or cuts off blood flow to the brain."
+    ],
+    "category": "definition",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q03"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "answerable": true,
+    "expected_answer": "The blood supply to part of the brain is cut off or interrupted.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 10,
+        "evidence": "An ischemic stroke occurs when the supply of blood to one or more regions of the brain is suddenly cut off or interrupted."
+      },
+      {
+        "source_id": "ninds_rehabilitation_2020",
+        "page": 3,
+        "evidence": "from lack of blood flow to a region where nerve cells are robbed of vital supplies of oxygen and nutrients and subsequently die (ischemic stroke)."
+      }
+    ],
+    "answer_requirements": [
+      "Blood supply to one or more brain regions is cut off or interrupted."
+    ],
+    "category": "definition",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q04"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "answerable": true,
+    "expected_answer": "Whether one side of the face droops.",
+    "gold": [
+      {
+        "source_id": "ninds_fast_2024",
+        "page": 1,
+        "evidence": "Face Drooping Does one side of the face droop when smiling?"
+      }
+    ],
+    "answer_requirements": [
+      "One side of the face droops when the person smiles."
+    ],
+    "category": "recognition",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q05"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "answerable": true,
+    "expected_answer": "Treat high blood pressure; exercise; eat healthy; control cholesterol; manage diabetes; quit smoking.",
+    "gold": [
+      {
+        "source_id": "ninds_prevention_2024",
+        "page": 1,
+        "evidence": "Treat High Blood Pressure Exercise & Be Physically Active Eat Healthy Control Cholesterol Manage Diabetes Quit Smoking"
+      }
+    ],
+    "answer_requirements": [
+      "Treat high blood pressure.",
+      "Exercise and be physically active.",
+      "Eat healthy.",
+      "Control cholesterol.",
+      "Manage diabetes.",
+      "Quit smoking."
+    ],
+    "category": "prevention_list",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q06"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "answerable": true,
+    "expected_answer": "It decreases significantly after two years and decreases further by five years.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 26,
+        "evidence": "The risk for stroke decreases significantly 2 years after a person quits smoking; by 5 years, the risk decreases even further."
+      },
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 25,
+        "evidence": "The risk for stroke decreases significantly 2 years after a person quits smoking; by 5 years, the risk decreases even further to the level of nonsmokers."
+      }
+    ],
+    "answer_requirements": [
+      "Stroke risk decreases significantly two years after quitting smoking.",
+      "The risk decreases further by five years."
+    ],
+    "category": "conditional_timeline",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q07"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "answerable": true,
+    "expected_answer": "Such medicines might increase bleeding and worsen a hemorrhagic stroke.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 28,
+        "evidence": "Doctors must determine if there is any bleeding in the brain before giving certain medicines, such as thrombolytic therapy or t-PA (tissue plasminogen activator), which might increase bleeding and worsen a hemorrhagic stroke."
+      },
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 32,
+        "evidence": "Since thrombolytic drugs can increase bleeding, t-PA should be used only after the doctor is certain that the person has suffered an ischemic, and not a hemorrhagic, stroke."
+      }
+    ],
+    "answer_requirements": [
+      "Thrombolytic medicines can increase bleeding and worsen a hemorrhagic stroke."
+    ],
+    "category": "treatment_safety",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q08"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "answerable": true,
+    "expected_answer": "Relearn lost skills; prevent new medical problems; learn ways to compensate for remaining disabilities.",
+    "gold": [
+      {
+        "source_id": "ninds_recovery_2024",
+        "page": 1,
+        "evidence": "Relearn skills that are suddenly lost when part of the brain is damaged. • Prevent new medical problems from developing. • Learn new ways to compensate for any remaining disabilities."
+      }
+    ],
+    "answer_requirements": [
+      "Relearn lost skills.",
+      "Prevent new medical problems.",
+      "Compensate for remaining disabilities."
+    ],
+    "category": "rehabilitation_goals",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q09"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "answerable": true,
+    "expected_answer": "Walking, sitting, standing, lying down, and switching between movements.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 41,
+        "evidence": "The aim of physical therapy is to help people relearn simple motor activities such as walking, sitting, standing, lying down, and the process of switching from one type of movement to another."
+      },
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 41,
+        "evidence": "walking, sitting, standing, lying down, and the process of switching from one type of movement to another. To achieve this, physical therapists use training and exercises to restore movement, balance, and coordination."
+      }
+    ],
+    "answer_requirements": [
+      "Walking.",
+      "Sitting.",
+      "Standing.",
+      "Lying down.",
+      "Switching between movements."
+    ],
+    "category": "rehabilitation_list",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q10"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "answerable": true,
+    "expected_answer": "Activities including eating, drinking and swallowing, dressing, bathing, cooking, reading and writing, and toileting.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 42,
+        "evidence": "Occupational therapy helps people relearn the skills needed to perform everyday activities such as eating, drinking and swallowing, dressing, bathing, cooking, reading and writing, and toileting."
+      }
+    ],
+    "answer_requirements": [
+      "Eating.",
+      "Drinking and swallowing.",
+      "Dressing.",
+      "Bathing.",
+      "Cooking.",
+      "Reading and writing.",
+      "Toileting."
+    ],
+    "category": "daily_activities",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q11"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "answerable": true,
+    "expected_answer": "They can loosen, leave the heart, and travel to the brain.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 23,
+        "evidence": "This leads to blood stagnation in the atria, and the formation of blood clots that can loosen and leave the heart and travel to the brain, causing an ischemic stroke."
+      }
+    ],
+    "answer_requirements": [
+      "Clots can break loose from the atria, leave the heart and travel to the brain."
+    ],
+    "category": "causal_explanation",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q12"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "answerable": true,
+    "expected_answer": "HDL is commonly called good cholesterol; LDL is usually called bad cholesterol.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 23,
+        "evidence": "There are two kinds of cholesterol: high-density lipoprotein, or HDL, which is commonly called “good” cholesterol; and low-density lipoprotein, or LDL, which is usually referred to as “bad” cholesterol."
+      }
+    ],
+    "answer_requirements": [
+      "HDL is called good cholesterol.",
+      "LDL is called bad cholesterol."
+    ],
+    "category": "terminology",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q13"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "answerable": true,
+    "expected_answer": "Visit Clinicaltrials.gov and search for stroke.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 51,
+        "evidence": "For information about finding and participating in a clinical study on stroke, visit Clinicaltrials.gov at https://clinicaltrials.gov and enter the search term “stroke.”"
+      }
+    ],
+    "answer_requirements": [
+      "Use ClinicalTrials.gov.",
+      "Search with the single word stroke."
+    ],
+    "category": "research_access",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q14"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "answerable": true,
+    "expected_answer": "They ask questions and have the person perform physical and mental tests.",
+    "gold": [
+      {
+        "source_id": "ninds_stroke_overview_2020",
+        "page": 27,
+        "evidence": "Healthcare professionals use the NIH Stroke Scale to measure neurological function and deficits by asking the person to answer questions and perform several physical and mental tests."
+      }
+    ],
+    "answer_requirements": [
+      "Ask the person questions.",
+      "Have the person perform physical and mental tests."
+    ],
+    "category": "assessment",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q15"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "answerable": true,
+    "expected_answer": "Whether one arm drifts down.",
+    "gold": [
+      {
+        "source_id": "ninds_fast_2024",
+        "page": 1,
+        "evidence": "Arm Weakness When arms are raised, does one drift down?"
+      }
+    ],
+    "answer_requirements": [
+      "One arm drifts downward when both arms are raised."
+    ],
+    "category": "recognition",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q16"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "answerable": true,
+    "expected_answer": "Specialized equipment available at a traditional rehabilitation facility may not be accessible at home.",
+    "gold": [
+      {
+        "source_id": "ninds_rehabilitation_2020",
+        "page": 14,
+        "evidence": "(However, there may not be access to specialized equipment found at a traditional rehabilitation facility.) Home-based rehabilitation may involve participating in an intensive level of therapy several hours per week or follow a less demanding regimen."
+      }
+    ],
+    "answer_requirements": [
+      "Home-based rehabilitation may lack access to specialized equipment available at a traditional facility; this is a possibility, not a universal limitation."
+    ],
+    "category": "rehabilitation_limitation",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q17"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "answerable": true,
+    "expected_answer": "Difficulty understanding spoken or written language, often with incoherent speech.",
+    "gold": [
+      {
+        "source_id": "ninds_rehabilitation_2020",
+        "page": 8,
+        "evidence": "receptive aphasia, in which people have difficulty understanding spoken or written language and often have incoherent speech."
+      }
+    ],
+    "answer_requirements": [
+      "Difficulty understanding spoken or written language.",
+      "Speech is often incoherent."
+    ],
+    "category": "language_impairment",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q18"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "answerable": true,
+    "expected_answer": "To improve motor recovery and patient education after stroke.",
+    "gold": [
+      {
+        "source_id": "ninds_rehabilitation_2020",
+        "page": 15,
+        "evidence": "Telerehabilitation: a home-based telehealth system designed to improve motor recovery and patient education after stroke."
+      }
+    ],
+    "answer_requirements": [
+      "Improve motor recovery.",
+      "Improve patient education after stroke."
+    ],
+    "category": "research_purpose",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q19"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "answerable": true,
+    "expected_answer": "Supportive family and social networks can be a very important factor over the months of rehabilitation.",
+    "gold": [
+      {
+        "source_id": "ninds_rehabilitation_2020",
+        "page": 5,
+        "evidence": "Cooperation of family and friends. Supportive family and social networks can be a very important factor in rehabilitation, which usually extends over many months."
+      }
+    ],
+    "answer_requirements": [
+      "Supportive family and social networks can strongly affect rehabilitation over many months."
+    ],
+    "category": "rehabilitation_support",
+    "origin": {
+      "dataset": "day6_dev",
+      "id": "q20"
+    },
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev_u01",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "category": "missing_information",
+    "origin": {
+      "dataset": "day7_new"
+    },
+    "absence_reason": "The corpus describes TRANSPORT 2 as a phase II study investigating whether stimulation can improve arm function. It gives neither a six-month arm-recovery percentage nor completed outcome results for that trial.",
+    "absence_check": {
+      "checked_source_ids": [
+        "ninds_stroke_overview_2020",
+        "ninds_rehabilitation_2020",
+        "ninds_fast_2024",
+        "ninds_prevention_2024",
+        "ninds_recovery_2024"
+      ],
+      "search_terms": [
+        "TRANSPORT",
+        "transcranial",
+        "phase II",
+        "arm function",
+        "six months",
+        "6 months"
+      ],
+      "related_evidence": [
+        {
+          "source_id": "ninds_rehabilitation_2020",
+          "page": 15,
+          "evidence": "Transcranial Direct Current Stimulation for Post-stroke Motor Recovery: A phase II study (TRANSPORT 2) aims to find out if brain stimulation at different dosage levels combined with an efficacy-proven rehabilitation therapy can improve arm function."
+        }
+      ]
+    }
+  },
+  {
+    "id": "dev_u02",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "category": "missing_information",
+    "origin": {
+      "dataset": "day7_new"
+    },
+    "absence_reason": "The prevention fact sheet recommends exercise and physical activity but gives no daily duration. None of the three 2024 documents specifies the requested number of exercise minutes per day.",
+    "absence_check": {
+      "checked_source_ids": [
+        "ninds_fast_2024",
+        "ninds_prevention_2024",
+        "ninds_recovery_2024"
+      ],
+      "search_terms": [
+        "exercise",
+        "physical",
+        "minutes",
+        "daily",
+        "duration"
+      ],
+      "related_evidence": [
+        {
+          "source_id": "ninds_prevention_2024",
+          "page": 1,
+          "evidence": "Exercise & Be Physically Active"
+        }
+      ]
+    }
+  }
+]

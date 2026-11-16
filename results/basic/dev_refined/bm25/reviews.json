@@ -1,0 +1,388 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Blood flow to the brain is interrupted or cut off. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "06ca7329385daf3302d76086",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 5: Đủ các ý được hỏi: Blood flow to the brain is interrupted or cut off. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: The symptoms begin suddenly. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "f804cf67e83eaf048be3f5c1",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 6: Đủ các ý được hỏi: The symptoms begin suddenly. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: A TIA temporarily blocks or cuts off blood flow to the brain. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "d8be52d3b2b4e1c69165c441",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 14: Đủ các ý được hỏi: A TIA temporarily blocks or cuts off blood flow to the brain. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Định nghĩa qua blockage làm gián đoạn dòng máu và ví dụ thrombosis được hỗ trợ bởi overview trang10/32; evidence tương đương ngoài exact gold, không sửa gold.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "791eb764e9b180cb6a0f44d0",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 10: Định nghĩa qua blockage làm gián đoạn dòng máu và ví dụ thrombosis được hỗ trợ bởi overview trang10/32; evidence tương đương ngoài exact gold, không sửa gold."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: One side of the face droops when the person smiles. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "71ce8ce9c9e9832ca01ec4ee",
+        "supported": true,
+        "reason": "ninds_fast_2024, trang PDF 1: Đủ các ý được hỏi: One side of the face droops when the person smiles. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "answer_refused": true,
+    "reason": "Context chỉ có footer và risk factors, thiếu danh sách sáu hành động; từ chối nhầm.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Stroke risk decreases significantly two years after quitting smoking.; The risk decreases further by five years. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "bf94f4437c4036d0459a02d0",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 26: Đủ các ý được hỏi: Stroke risk decreases significantly two years after quitting smoking.; The risk decreases further by five years. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Thrombolytic medicines can increase bleeding and worsen a hemorrhagic stroke. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "bd79e3d322f21588b017ea4d",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 28: Đủ các ý được hỏi: Thrombolytic medicines can increase bleeding and worsen a hemorrhagic stroke. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "answer_refused": false,
+    "reason": "Nêu ba ví dụ chức năng, chỉ đáp ứng phần relearn skills; thiếu prevent new medical problems và compensate disabilities.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "6e95851424dab8ef282e0ad9",
+        "supported": true,
+        "reason": "ninds_recovery_2024, trang PDF 1: Nêu ba ví dụ chức năng, chỉ đáp ứng phần relearn skills; thiếu prevent new medical problems và compensate disabilities."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Walking.; Sitting.; Standing.; Lying down.; Switching between movements. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "5b8c5edbc0c738b154e5cffa",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 41: Đủ các ý được hỏi: Walking.; Sitting.; Standing.; Lying down.; Switching between movements. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Eating.; Drinking and swallowing.; Dressing.; Bathing.; Cooking.; Reading and writing.; Toileting. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "1ae69a7b1621b5450a67d629",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 42: Đủ các ý được hỏi: Eating.; Drinking and swallowing.; Dressing.; Bathing.; Cooking.; Reading and writing.; Toileting. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Clots can break loose from the atria, leave the heart and travel to the brain. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "79aa669c56bb5e50ec6a988c",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 23: Đủ các ý được hỏi: Clots can break loose from the atria, leave the heart and travel to the brain. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: HDL is called good cholesterol.; LDL is called bad cholesterol. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "3a75c9a10ed9c282cf5128e3",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 23: Đủ các ý được hỏi: HDL is called good cholesterol.; LDL is called bad cholesterol. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Use ClinicalTrials.gov.; Search with the single word stroke. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "9b6455ce39534884db106c06",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 51: Đủ các ý được hỏi: Use ClinicalTrials.gov.; Search with the single word stroke. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Ask the person questions.; Have the person perform physical and mental tests. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "dc6a32b8b798879b5745039b",
+        "supported": true,
+        "reason": "ninds_stroke_overview_2020, trang PDF 27: Đủ các ý được hỏi: Ask the person questions.; Have the person perform physical and mental tests. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q16",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "answer_refused": true,
+    "reason": "Đoạn triệu chứng chung và footer không có arm drift; từ chối nhầm.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Home-based rehabilitation may lack access to specialized equipment available at a traditional facility; this is a possibility, not a universal limitation. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "913151f3a5b4252cdc3ca26e",
+        "supported": true,
+        "reason": "ninds_rehabilitation_2020, trang PDF 14: Đủ các ý được hỏi: Home-based rehabilitation may lack access to specialized equipment available at a traditional facility; this is a possibility, not a universal limitation. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Difficulty understanding spoken or written language.; Speech is often incoherent. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "ed5f55f8c1898233b17800da",
+        "supported": true,
+        "reason": "ninds_rehabilitation_2020, trang PDF 8: Đủ các ý được hỏi: Difficulty understanding spoken or written language.; Speech is often incoherent. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Improve motor recovery.; Improve patient education after stroke. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "46f091983d9f3eb3b4d621ce",
+        "supported": true,
+        "reason": "ninds_rehabilitation_2020, trang PDF 15: Đủ các ý được hỏi: Improve motor recovery.; Improve patient education after stroke. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "answer_refused": false,
+    "reason": "Đủ các ý được hỏi: Supportive family and social networks can strongly affect rehabilitation over many months. Answer và từng citation đã đối chiếu với nguồn trong context.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "4acf69a1db5eef93d51af4f4",
+        "supported": true,
+        "reason": "ninds_rehabilitation_2020, trang PDF 5: Đủ các ý được hỏi: Supportive family and social networks can strongly affect rehabilitation over many months. Answer và từng citation đã đối chiếu với nguồn trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "dev_u01",
+    "context_grade": 0,
+    "answer_refused": true,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng và không suy đoán số liệu. Phạm vi thiếu evidence được đối chiếu với nguồn/absence_check.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  },
+  {
+    "query_id": "dev_u02",
+    "context_grade": 0,
+    "answer_refused": true,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng và không suy đoán số liệu. Phạm vi thiếu evidence được đối chiếu với nguồn/absence_check.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false
+  }
+]

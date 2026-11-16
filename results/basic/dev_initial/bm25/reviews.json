@@ -1,0 +1,388 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "06ca7329385daf3302d76086",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "f804cf67e83eaf048be3f5c1",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "d8be52d3b2b4e1c69165c441",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "reason": "Giải thích blockage/impair blood flow có căn cứ tương đương định nghĩa, dù không khớp quote gold; từ typically thêm khẳng định tần suất không có trong hai đoạn context nên chưa đạt đủ grounding.",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "id": "791eb764e9b180cb6a0f44d0",
+        "supported": false,
+        "reason": "Giải thích blockage/impair blood flow có căn cứ tương đương định nghĩa, dù không khớp quote gold; từ typically thêm khẳng định tần suất không có trong hai đoạn context nên chưa đạt đủ grounding."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "71ce8ce9c9e9832ca01ec4ee",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "reason": "Từ chối nhầm; context giữ footer và risk factors nhưng bỏ danh sách sáu hành động.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "bf94f4437c4036d0459a02d0",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "bd79e3d322f21588b017ea4d",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "reason": "Nhầm ví dụ walk/language/think với ba mục tiêu relearn/prevent/compensate; chỉ đáp ứng một phần yêu cầu.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "6e95851424dab8ef282e0ad9",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "5b8c5edbc0c738b154e5cffa",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "1ae69a7b1621b5450a67d629",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "79aa669c56bb5e50ec6a988c",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "3a75c9a10ed9c282cf5128e3",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "9b6455ce39534884db106c06",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "dc6a32b8b798879b5745039b",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q16",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "reason": "Từ chối nhầm; context giữ symptoms và footer, không có arm drift khi nâng hai tay.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "913151f3a5b4252cdc3ca26e",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "ed5f55f8c1898233b17800da",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "46f091983d9f3eb3b4d621ce",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "4acf69a1db5eef93d51af4f4",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ các claim đi kèm; lỗi thiếu ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "dev_u01",
+    "context_grade": 0,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng vì tài liệu không cho số liệu được hỏi, không thêm số liệu suy đoán; phạm vi thiếu evidence đã kiểm tra trong nhãn nguồn.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  },
+  {
+    "query_id": "dev_u02",
+    "context_grade": 0,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng vì tài liệu không cho số liệu được hỏi, không thêm số liệu suy đoán; phạm vi thiếu evidence đã kiểm tra trong nhãn nguồn.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  }
+]

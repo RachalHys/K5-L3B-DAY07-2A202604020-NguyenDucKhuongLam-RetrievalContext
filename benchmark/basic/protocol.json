@@ -1,0 +1,109 @@
+{
+  "benchmark_id": "ninds-day7-basic-v2",
+  "frozen_at": "2026-11-16T11:33:55.271145+00:00",
+  "language": "en",
+  "corpus_scope": "stroke-awareness-ninds; only the 67 selected pages in data/basic/manifest.json; WHO bonus excluded",
+  "corpus_sha256": {
+    "manifest.json": "dc556bd7d835e7d12bba7efe5f2ec74778d0ffbfb24c9e5eb4b82994275179df",
+    "pages.jsonl": "9e68b4971c45588e2ca809bfe0b1ba72a53ec54c1d1c17f50213088fc70ebeae",
+    "chunks.json": "71dc9f4de4c9932b30f213e27e10e582831fd7b328001ae4f3294d4d65f02c7a",
+    "dense_vectors.npz": "4bd7b12174fae1039ae70a355d2444ce1d8692610e5735d17a61754b7929f8de",
+    "provenance.json": "5da259ae4d0d1b8b966db32e65546768f7c967c8b6724eb38fa5f45e6d73bff2"
+  },
+  "files_sha256": {
+    "dev.json": "d98c85e21ceb2529a059fab5bb7024598447e42ed37f1a0a759dd53134d24550",
+    "test.json": "b66c9e91274811abafa5b04a093224a2074e7b2148c32ae388a2efb5e844461a",
+    "labels/dev.json": "4979a9b2a6a5f3d631292ec3a35830e6e63e97377b2a76905909092f37b920df",
+    "labels/test.json": "3f14661174242cc102f52847d5b211ae5f62c21340b4dadae98f74ff01c22a85"
+  },
+  "counts": {
+    "dev": {
+      "answerable": 20,
+      "unanswerable": 2,
+      "total": 22
+    },
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2,
+      "total": 7
+    }
+  },
+  "input_fields": [
+    "id",
+    "split",
+    "question",
+    "filter"
+  ],
+  "filter_policy": "A publication_year filter is provided only when that exact year occurs in the question. No filter is derived from gold, source pages or expected answers.",
+  "gold_policy": "Gold entries are alternative complete evidence, not required multi-hop groups. A retrieval hit needs the quoted evidence whole in one returned chunk at the correct source_id and physical PDF page, satisfying the query filter. A context hit needs at least one such chunk in the final context. Unanswerables are excluded from retrieval denominators.",
+  "absence_policy": "For each unanswerable, review every selected page of the listed checked_source_ids within the explicit query filter, inspect relevant sections and search synonyms/units. Related passages document what is present and why it does not answer the question. Empty top-k results alone do not establish absence.",
+  "split_policy": {
+    "dev": "20 audited Day 6 development cases plus 2 new unanswerables. All old held-out questions q21-q25 are excluded from the Day 7 benchmark.",
+    "test": "5 new answerable facts and 2 new unanswerables, authored before Day 7 retrieval or agent evaluation. No target answer is a paraphrase of an existing development or previous Day 6 test case.",
+    "limitation": "Question-level holdout in a shared corpus, with some shared source pages/chunks; not an unseen-document evaluation. Only 5 answerable and 2 unanswerable test cases.",
+    "execution": "Use only dev to tune retrieval, prompts, context and agent behavior. Freeze baseline and selected configuration before running all test cases. Test-informed changes require a fresh test set and disclosure."
+  },
+  "selection_rule": [
+    "dev_grounded_points_per_answerable_attempt_desc",
+    "dev_correct_abstentions_per_unanswerable_attempt_desc",
+    "dev_error_count_asc",
+    "dev_supported_citation_rate_desc",
+    "dev_context_evidence_rate_desc",
+    "dev_median_end_to_end_latency_asc",
+    "dev_service_cost_usd_asc"
+  ],
+  "grading_reference": "BENCHMARK.md; required facts in labels; context and answer grades 0/1/2, supported citations, abstention/false abstention, tool calls, errors, latency and cost. ID/text matching does not replace semantic source review.",
+  "source_verification": {
+    "method": "Source-text inspection, exact source/page/chunk checks, checksums and all selected PDF page texts; original-page render inspection for ambiguous home-based context, FAST layout and the new test passages.",
+    "rendered_source_pages": {
+      "ninds_rehabilitation_2020": [
+        12,
+        14
+      ],
+      "ninds_fast_2024": [
+        1
+      ],
+      "ninds_stroke_overview_2020": [
+        15,
+        29,
+        32
+      ]
+    },
+    "human_verified": false
+  },
+  "upstream_day6_commit": "d255bd3ebe4ee9dfe9fe6ddc65e212677ba70c3d",
+  "upstream_questions_sha256": "1eef4f6de7df6b8a8e532b11ea2a01e44bc4e692d29ac7d57b05629a8dd7295c",
+  "curation_changes": [
+    "q01 answer narrowed to the blood-flow fact supported by each retained alternative.",
+    "q04 question scope clarified and redundant incomplete quotation removed.",
+    "q07 accepted evidence also covers the equivalent statement on overview page 25.",
+    "q08 year made explicit; equivalent safety evidence on overview page 32 accepted.",
+    "q17 quotation shortened to one chunk retaining home-based context and the equipment limitation.",
+    "q18 wording explicitly asks about the stated language difficulties.",
+    "Year filters made consistent with explicit question wording."
+  ],
+  "revision": {
+    "previous_benchmark_id": "ninds-day7-basic-v1",
+    "previous_frozen_at": "2026-11-16T11:14:15.231644+00:00",
+    "previous_protocol_sha256": "d2cd23ca9c885d35ad95e263295e5e0ee2f0847cba3b2a05bfc2302f37426c6e",
+    "before_any_benchmark_execution": true,
+    "reason": "Pre-execution audit: strengthen schema/integrity validation and clarify semantic grading, fixed-gold limitations and error-aware dev selection. Query inputs and gold labels are unchanged."
+  },
+  "answer_grading_policy": {
+    "interpretation": "Evaluate the meaning of answer_requirements within the question scope. Accept equivalent wording and concise answers; conditions already fixed by the question need not be repeated. Preserve requested distinctions, lists, units, approximations and uncertainty.",
+    "grades": {
+      "0": "Wrong, ungrounded, or an abstention on an answerable case.",
+      "1": "Only part of the requested answer is correct and supported.",
+      "2": "All requested facts are correct and supported by the actual context, with no material unsupported claims."
+    },
+    "alternatives": "When the source uses an OR condition, do not require both conditions to occur simultaneously. Listing the requested alternatives is sufficient.",
+    "automatic_vs_reviewed": "Fixed gold quotations define automatic retrieval/context metrics. Manual answer and citation grades use the actual context and the original source within the question scope, not literal equality to gold. Report disagreements separately without silently changing frozen test labels."
+  },
+  "error_policy": "Retain a trace for every case, including model, retrieval and timeout errors, with latency and cost. Report official quality metrics on successful cases with explicit n/N, and errors separately as in starter/agent_metrics.py. Abstaining on an answerable case is grade 0, not a provider error. A run missing a case is incomplete.",
+  "selection_definitions": {
+    "dev_grounded_points_per_answerable_attempt": "Sum of reviewed answer grades from successful answerable cases divided by all 20 answerable dev cases. Errors add no points; do not invent answer grades for error traces. This is a selection score, separate from the official successful-case mean.",
+    "dev_correct_abstentions_per_unanswerable_attempt": "Number of reviewed correct abstentions divided by both unanswerable dev cases, including any errored cases in the denominator.",
+    "undefined_ratios": "Report 0/0 as not applicable. In a tie-break, an undefined ratio does not outrank a defined score.",
+    "comparison_scope": "Run every dev input for each configuration and retain errors; do not improve the selection score by dropping failed cases. Freeze selected and baseline configurations before test."
+  }
+}

@@ -1,0 +1,380 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "06ca7329385daf3302d76086",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "f804cf67e83eaf048be3f5c1",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "90744e137e905f6cd2215046",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "reason": "Từ chối nhầm; context chỉ là mission/research của NINDS, không có định nghĩa ischemic stroke.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "71ce8ce9c9e9832ca01ec4ee",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "fc04cdf309a839ca381ccd28",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "bf94f4437c4036d0459a02d0",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "bd79e3d322f21588b017ea4d",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "reason": "Nhầm ba ví dụ về chức năng được cải thiện với ba mục tiêu được hỏi; thiếu phòng ngừa vấn đề y khoa và bù trừ khuyết tật.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "6e95851424dab8ef282e0ad9",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "5b8c5edbc0c738b154e5cffa",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "1ae69a7b1621b5450a67d629",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "reason": "Không nêu cơ chế clot rời atria/tim rồi tới não; citation ở cuối không hỗ trợ khẳng định cả corpus không giải thích cơ chế này.",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "id": "48d435169f46548786b843ed",
+        "supported": false,
+        "reason": "Không nêu cơ chế clot rời atria/tim rồi tới não; citation ở cuối không hỗ trợ khẳng định cả corpus không giải thích cơ chế này."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "reason": "Câu trả lời đúng tên HDL/LDL nhưng context trang 24 chỉ nói mức lipid và lợi ích HDL, không nêu hai tên good/bad cholesterol; claim chưa có evidence trong context.",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "id": "6ce73701db814959107cfbf7",
+        "supported": false,
+        "reason": "Câu trả lời đúng tên HDL/LDL nhưng context trang 24 chỉ nói mức lipid và lợi ích HDL, không nêu hai tên good/bad cholesterol; claim chưa có evidence trong context."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "reason": "URL đúng nhưng nguồn được cite là rehabilitation trang 18, không phải overview; nguồn này yêu cầu search có AND NINDS, không hỗ trợ single-word stroke.",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "id": "9a13b842375336f7467ef5cc",
+        "supported": false,
+        "reason": "URL đúng nhưng nguồn được cite là rehabilitation trang 18, không phải overview; nguồn này yêu cầu search có AND NINDS, không hỗ trợ single-word stroke."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "dc6a32b8b798879b5745039b",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đúng arm drift khi nâng hai tay, có evidence trong đoạn FAST được cite.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "2d1e9555f0ed348901365f57",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "reason": "Từ chối nhầm; chỉ giữ đoạn lợi ích home-based, bỏ đoạn equipment limitation kế tiếp.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "reason": "Từ chối nhầm; context nói aphasia chung nhưng thiếu subtype receptive và incoherent speech.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Đủ các ý được hỏi; đối chiếu nội dung câu trả lời và citation với đoạn nguồn trong context, đúng điều kiện/trang.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "46f091983d9f3eb3b4d621ce",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": false
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "reason": "Nêu home environment rồi không trả lời tác động family/friends; từ chối nội dung được hỏi dù model khai answered.",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "id": "e18a6a76d4bd3bff80b5a533",
+        "supported": true,
+        "reason": "Đoạn được cite hỗ trợ claim tương ứng; mức đủ ý của đáp án được chấm riêng."
+      }
+    ],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  },
+  {
+    "query_id": "dev_u01",
+    "context_grade": 0,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng vì tài liệu không cho số liệu được hỏi, không thêm số liệu suy đoán; phạm vi thiếu evidence đã kiểm tra trong nhãn nguồn.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  },
+  {
+    "query_id": "dev_u02",
+    "context_grade": 0,
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng vì tài liệu không cho số liệu được hỏi, không thêm số liệu suy đoán; phạm vi thiếu evidence đã kiểm tra trong nhãn nguồn.",
+    "citation_support": [],
+    "citation_reviews": [],
+    "review_method": "source_inspection",
+    "human_verified": false,
+    "answer_refused": true
+  }
+]
