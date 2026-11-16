@@ -1,0 +1,447 @@
+[
+  {
+    "query_id": "dev-chart-01",
+    "passed": false,
+    "reason": "Từ chối dù Fig.3 cung cấp144và346triệu; OCR không đọc được số trong bong bóng.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 23,
+        "bbox_normalized": [
+          0.08,
+          0.3,
+          0.91,
+          0.9
+        ],
+        "description": "Fig.3 Western Pacific bubbles for 1990 and 2019"
+      }
+    ],
+    "answer": "I can’t reliably read the Western Pacific values from the available Fig. 3 page-region text, so I abstain rather than guess. [who-p023-top]",
+    "citations": [
+      "who-p023-top"
+    ]
+  },
+  {
+    "query_id": "dev-chart-02",
+    "passed": false,
+    "reason": "Đọc thành10%và12%; ảnh Fig.8 ghi7%và9%. Đúng độ chênh không bù cho hai giá trị sai.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 29,
+        "bbox_normalized": [
+          0.09,
+          0.44,
+          0.9,
+          0.66
+        ],
+        "description": "Fig.8 ischaemic heart disease segments and legend"
+      }
+    ],
+    "answer": "Fig. 8 shows ischaemic heart disease accounted for about 10% of global deaths in 1990 and about 12% in 2019—an increase of roughly 2 percentage points. [who-p029-middle]",
+    "citations": [
+      "who-p029-middle"
+    ]
+  },
+  {
+    "query_id": "dev-chart-03",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: Orange 2023; blue 2050.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 35,
+        "bbox_normalized": [
+          0.08,
+          0.46,
+          0.9,
+          0.91
+        ],
+        "description": "Fig.10 legend to the right of panels"
+      }
+    ],
+    "answer": "The orange bars represent 2023 and the blue bars represent 2050. [who-p035-middle]",
+    "citations": [
+      "who-p035-middle"
+    ]
+  },
+  {
+    "query_id": "dev-image-01",
+    "passed": false,
+    "reason": "Trả lời đúng hai nước nhưng mô tả vùng không tô màu là Not applicable; legend thực tế dùng màu xám cho Not applicable.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 54,
+        "bbox_normalized": [
+          0.08,
+          0.3,
+          0.91,
+          0.63
+        ],
+        "description": "Box 2 map, labelled China and Brazil; blue Implemented legend"
+      }
+    ],
+    "answer": "Yes. China and Brazil are both shaded as “implemented” on the HEARTS map; the legend identifies the shaded category as implemented, while the unshaded category is “Not applicable.” [who-p054-middle]",
+    "citations": [
+      "who-p054-middle"
+    ]
+  },
+  {
+    "query_id": "dev-image-02",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: Step 5: refer to a hypertension specialist.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 55,
+        "bbox_normalized": [
+          0.54,
+          0.57,
+          0.85,
+          0.88
+        ],
+        "description": "Fig.13, bottom of five-step sequence"
+      }
+    ],
+    "answer": "The final numbered step instructs: “Refer to hypertension specialist.” [who-p055-bottom]",
+    "citations": [
+      "who-p055-bottom"
+    ]
+  },
+  {
+    "query_id": "dev-image-03",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: Procurement (stage 3).",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 57,
+        "bbox_normalized": [
+          0.5,
+          0.37,
+          0.87,
+          0.5
+        ],
+        "description": "Fig.14 five-stage supply-chain diagram"
+      }
+    ],
+    "answer": "The stage immediately between forecasting of drugs and storage/distribution is procurement [who-p057-middle].",
+    "citations": [
+      "who-p057-middle"
+    ]
+  },
+  {
+    "query_id": "dev-multi_hop-01",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: 42% (45%,40%); adults aged 30–79 with hypertension, rather than all adults.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 19,
+        "bbox_normalized": [
+          0.08,
+          0.5,
+          0.91,
+          0.86
+        ],
+        "description": "Table1 Treatment coverage denominator"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 22,
+        "bbox_normalized": [
+          0.08,
+          0.6,
+          0.91,
+          0.84
+        ],
+        "description": "Table2 Global treatment coverage"
+      }
+    ],
+    "answer": "Global treatment coverage in 2019 was 42%. Its denominator is adults aged 30–79 years with hypertension (as defined in Table 1). [who-p022-bottom] [who-p019-bottom]",
+    "citations": [
+      "who-p022-bottom",
+      "who-p019-bottom"
+    ]
+  },
+  {
+    "query_id": "dev-multi_hop-02",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: Int$300 billion / 79 million = approximately Int$3,797 per projected nonfatal myocardial infarction averted; costs also produce other benefits.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 37,
+        "bbox_normalized": [
+          0.08,
+          0.32,
+          0.91,
+          0.48
+        ],
+        "description": "Table4 progress nonfatal myocardial infarctions79million"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 39,
+        "bbox_normalized": [
+          0.08,
+          0.57,
+          0.72,
+          0.84
+        ],
+        "description": "Table5 progress incremental costs300billion"
+      }
+    ],
+    "answer": "Progress-scenario incremental costs: Int$ 300 billion [who-p039-bottom]. Projected nonfatal myocardial infarctions averted: 79 million [who-p037-middle]. Simple quotient: Int$ 300 billion ÷ 79 million = about Int$ 3,797 (≈ Int$ 3,800) per projected nonfatal myocardial infarction averted. This is only the requested arithmetic quotient, not an isolated cost-effectiveness estimate.",
+    "citations": [
+      "who-p039-bottom",
+      "who-p037-middle"
+    ]
+  },
+  {
+    "query_id": "dev-multi_hop-03",
+    "passed": false,
+    "reason": "Lấy9%và11%là các giá trị nam thay vì cả hai giới14%và13%.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 100,
+        "bbox_normalized": [
+          0.5,
+          0.14,
+          0.94,
+          0.35
+        ],
+        "description": "Treatment cascade controlled14%"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 280,
+        "bbox_normalized": [
+          0.5,
+          0.14,
+          0.94,
+          0.35
+        ],
+        "description": "Treatment cascade controlled13%"
+      }
+    ],
+    "answer": "In 2019, hypertension control among people with hypertension was 9% in Azerbaijan and 11% in Viet Nam. Viet Nam was higher by 2 percentage points. [who-p100-top] [who-p280-top]",
+    "citations": [
+      "who-p100-top",
+      "who-p280-top"
+    ]
+  },
+  {
+    "query_id": "dev-table-01",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: 66% (69%, 63%); preserve the interval endpoints as printed.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 22,
+        "bbox_normalized": [
+          0.08,
+          0.6,
+          0.91,
+          0.84
+        ],
+        "description": "Table 2, European row, diagnosis coverage column"
+      }
+    ],
+    "answer": "Diagnosis coverage in the European Region in 2019 was 66% (95% uncertainty interval: 63–69%). [who-p022-bottom]",
+    "citations": [
+      "who-p022-bottom"
+    ]
+  },
+  {
+    "query_id": "dev-table-02",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: 0.72 (0.67–0.78).",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 34,
+        "bbox_normalized": [
+          0.3,
+          0.55,
+          0.91,
+          0.86
+        ],
+        "description": "Table 3, Heart failure row"
+      }
+    ],
+    "answer": "Table 3 reports a relative risk of heart failure of 0.72 (95% confidence interval: 0.67–0.78) per 10-mmHg blood pressure reduction. [who-p034-bottom]",
+    "citations": [
+      "who-p034-bottom"
+    ]
+  },
+  {
+    "query_id": "dev-table-03",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: PHC facilities, PHC staffing, decentralization.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 67,
+        "bbox_normalized": [
+          0.07,
+          0.58,
+          0.91,
+          0.86
+        ],
+        "description": "Table 7, Clinical capacity row"
+      }
+    ],
+    "answer": "Table 7 lists these three clinical-capacity scale factors: PHC facilities, PHC staffing, and decentralization [who-p067-middle].",
+    "citations": [
+      "who-p067-middle"
+    ]
+  },
+  {
+    "query_id": "dev-text-01",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: It doubled, from 650 million to 1.3 billion.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 11,
+        "bbox_normalized": [
+          0.08,
+          0.14,
+          0.91,
+          0.36
+        ],
+        "description": "Executive summary opening paragraph"
+      }
+    ],
+    "answer": "The worldwide number of people with hypertension doubled, rising from 650 million in 1990 to 1.3 billion in 2019. [who-p011-top]",
+    "citations": [
+      "who-p011-top"
+    ]
+  },
+  {
+    "query_id": "dev-text-02",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: Poor-quality diet high in sodium and low in potassium; overweight/obesity; alcohol; tobacco; physical inactivity.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 23,
+        "bbox_normalized": [
+          0.08,
+          0.06,
+          0.72,
+          0.28
+        ],
+        "description": "Section2.2 opening paragraph"
+      }
+    ],
+    "answer": "Section 2.2 names poor-quality diet high in sodium and low in potassium, overweight and obesity, alcohol consumption, tobacco use, and physical inactivity as the main personal environmental contributors to age-related increases in blood pressure. [who-p023-top]",
+    "citations": [
+      "who-p023-top"
+    ]
+  },
+  {
+    "query_id": "dev-text-03",
+    "passed": true,
+    "reason": "Đáp án, đơn vị/điều kiện và citation khớp ảnh gốc: Less than 150 minutes moderate activity/week, or less than 75 minutes vigorous/week, or equivalent.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 288,
+        "bbox_normalized": [
+          0.3,
+          0.08,
+          0.91,
+          0.35
+        ],
+        "description": "Physical inactivity definition first paragraph"
+      }
+    ],
+    "answer": "Physical inactivity is defined as adults aged 18+ attaining less than 150 minutes of moderate-intensity physical activity per week, or less than 75 minutes of vigorous-intensity activity per week, or an equivalent amount. [who-p288-top]",
+    "citations": [
+      "who-p288-top"
+    ]
+  },
+  {
+    "query_id": "dev-unanswerable-01",
+    "passed": true,
+    "reason": "Từ chối đúng, không suy đoán đại lượng thiếu; các chi tiết bổ sung có nguồn. Review publication date, global prevalence section, country profiles and years; observed data precede2026; scenario projections are not measured prevalence.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [],
+    "answer": "The report does not give a measured worldwide hypertension prevalence for 2026. It reports an estimate of 33% among adults aged 30–79 worldwide for 2019 (age-standardized), based on measured blood-pressure studies and treatment data. [who-p020-top] [who-p284-middle]",
+    "citations": [
+      "who-p020-top",
+      "who-p284-middle"
+    ]
+  },
+  {
+    "query_id": "dev-unanswerable-02",
+    "passed": true,
+    "reason": "Từ chối đúng, không suy đoán đại lượng thiếu; các chi tiết bổ sung có nguồn. Review Sri Lanka Box3 and whole-document searches participant/age; aggregate age groups do not give individual records.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [],
+    "answer": "The report does not state the exact ages of every participant in the Sri Lanka demonstration project. It describes the programme as covering adults aged 18–79, but that is an eligibility range, not each participant’s age. [who-p055-middle]",
+    "citations": [
+      "who-p055-middle"
+    ]
+  },
+  {
+    "query_id": "dev-unanswerable-03",
+    "passed": true,
+    "reason": "Từ chối đúng, không suy đoán đại lượng thiếu; các chi tiết bổ sung có nguồn. Inspect Andorra original profile and relevant scenario notes; panel is explicitly unavailable, no other Andorra death projection found.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 93,
+        "bbox_normalized": [
+          0.5,
+          0.36,
+          0.94,
+          0.58
+        ],
+        "description": "Andorra profile scenario panel"
+      }
+    ],
+    "answer": "The Andorra profile does not supply a projected number of deaths averted by 2040. It reports no data for total deaths (2019) and shows no deaths-averted figure. [who-p093-top]",
+    "citations": [
+      "who-p093-top"
+    ]
+  }
+]

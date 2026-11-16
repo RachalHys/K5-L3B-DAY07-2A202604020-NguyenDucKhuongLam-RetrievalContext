@@ -7,3 +7,5 @@
 - [Chạy agent, thí nghiệm dev và đánh giá test](experiments.md)
 - [Báo cáo cá nhân](../report/individual/2A202604020_NguyenDucKhuongLam.md)
 - [Kết quả, trace và nhãn đánh giá](../results/basic/README.md)
+
+- [Thử thách nâng cao: dữ liệu, pipeline và cách chạy](bonus.md).

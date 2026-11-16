@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-11-16T16:36:22.542489+00:00",
+  "version": 1,
+  "source_id": "who_hypertension_2023",
+  "split_counts": {
+    "dev": 18,
+    "test": 30
+  },
+  "scoring": "Binary pass only if complete correct answer, units/conditions/calculation and supporting page/region citations; partial/refusal/error fail for answerable; abstention without unsupported claims passes unanswerable. All attempts remain in denominator.",
+  "selection": "Dev only; freeze code, data, model settings, both inputs and labels before test.",
+  "primary_groups_exclusive": true,
+  "test_minimum": {
+    "table": 6,
+    "image": 5,
+    "chart": 5,
+    "multi_hop": 4,
+    "text": 4,
+    "unanswerable": 6
+  },
+  "original_evidence_review": "Reference answers and regions checked against original PDF renders. Runtime cannot open labels. No independent human verification claimed.",
+  "absence_check_method": "Inspect relevant source pages and explanatory notes, and search the complete OCR corpus; publication dates and explicit Data not available panels bound claims.",
+  "files": {
+    "dev.json": "aa4d9d77ee0e515a5513aa273457fae742313e4507ce3cfe33772a0228cdc843",
+    "test.json": "b39cc3094ede0dfbd3a1f3c394e2728b6abd13b04eca8d1bff9132bd90e0e995",
+    "labels/dev.json": "4de669b1c3080b385f7fcd698f16dc24ba6ac67d0a4a37eb9dea5a897a83d009",
+    "labels/test.json": "f6658576d8ce5d64858d0a57d7d73948852f0e90437f9efcdafef61e1a1f238a"
+  }
+}

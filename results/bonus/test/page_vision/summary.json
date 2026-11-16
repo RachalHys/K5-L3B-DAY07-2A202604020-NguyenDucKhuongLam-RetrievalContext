@@ -1,0 +1,38 @@
+{
+  "passed": 29,
+  "total": 30,
+  "groups": {
+    "table": {
+      "n": 6,
+      "N": 6
+    },
+    "image": {
+      "n": 4,
+      "N": 5
+    },
+    "chart": {
+      "n": 5,
+      "N": 5
+    },
+    "multi_hop": {
+      "n": 4,
+      "N": 4
+    },
+    "text": {
+      "n": 4,
+      "N": 4
+    },
+    "unanswerable": {
+      "n": 6,
+      "N": 6
+    }
+  },
+  "cases": 30,
+  "errors": 0,
+  "llm_calls": 69,
+  "estimated_cost_usd": 0.0478396,
+  "median_ms": 7979.467959000431,
+  "completed_at": "2026-11-16T16:40:29.250043+00:00",
+  "rate": 0.9666666666666667,
+  "bonus_threshold_met": true
+}

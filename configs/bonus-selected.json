@@ -1,0 +1,46 @@
+{
+  "selected_at": "2026-11-16T16:39:29.399239+00:00",
+  "configuration": {
+    "id": "page_vision",
+    "top_k": 3,
+    "max_tools": 4,
+    "max_pages": 6,
+    "vision": true
+  },
+  "hashes": {
+    "bonus/run.py": "a3cace9f22a4bbd36d9629130ea924083830c3459c3499184c97a275d35f2aa1",
+    "src/llm.py": "fd937086241cdbd8114c3287c1b5492819bb09300e0ab8471d9594528094b324",
+    "src/retrieval.py": "d4cab8921473ff6f6adcd7708bc4ad32a527cbe9abc32fb1d61c845bb30c5f10",
+    "data/bonus/manifest.json": "19904890ef76ac9d95855628806cf302b4c5edde4c31554749657d75dab5b98a",
+    "data/bonus/index.json": "995cffdd51e8e7ea46914b14056623eca7eb3c204b815bd6749753c1ad0430ba",
+    "data/bonus/pages.json": "0b802168af51c15932f54278d5d52ba90a9c99bc3da3d1e1f5657d93036b2044",
+    "benchmark/bonus/dev.json": "aa4d9d77ee0e515a5513aa273457fae742313e4507ce3cfe33772a0228cdc843",
+    "benchmark/bonus/test.json": "b39cc3094ede0dfbd3a1f3c394e2728b6abd13b04eca8d1bff9132bd90e0e995",
+    "benchmark/bonus/labels/dev.json": "4de669b1c3080b385f7fcd698f16dc24ba6ac67d0a4a37eb9dea5a897a83d009",
+    "benchmark/bonus/labels/test.json": "f6658576d8ce5d64858d0a57d7d73948852f0e90437f9efcdafef61e1a1f238a",
+    "benchmark/bonus/protocol.json": "98df9f356551a2e7348700d93cf75f1af6024751a499414a824cd36c6488edfb",
+    "configs/bonus.json": "d75b2fe86159164ff594d5e4d35f16feab30aa914c20921a9594e16320ec027c"
+  },
+  "model": {
+    "model": "gpt-6-luna",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "reasoning_effort": "none",
+    "max_completion_tokens": 1800,
+    "temperature": 0
+  },
+  "selection_rule": "Highest dev pass rate, then fewer errors, then lower cost.",
+  "dev_runs": {
+    "ocr_text": {
+      "run.json": "2fed7256cc425abb8f78f3b156e108f30d01e41b4b57f0e3a3e543fb144f5f32",
+      "traces.jsonl": "3f9b4aeef94042c58dcb2b421836e94cde6af8dcefe44ecfacc885a27a9f5d2c",
+      "reviews.json": "8567580fe207ebb4b5306d84887dadda9eb3af0c92ba3d30e70a3d627e3428e7",
+      "summary.json": "0b48b902dcc7f5b9d244f65cb3c8301fdbd9b1ce3ee74e2f4b8a6bc822870977"
+    },
+    "page_vision": {
+      "run.json": "0c2c2ac10b0b3175de164d02175c96ac17129a77c710f0a1ea95dda83326ea99",
+      "traces.jsonl": "21cd7c24635dbabc98356e8c79e058c34c6a1eeaa1e4acbbb45cf97821d26782",
+      "reviews.json": "01c9501844cb97a364eeeb6fdfa5d1d3daecefb04192f64b129362954697af64",
+      "summary.json": "bef12dd7ea254987feb7ee3bdba9bd775e2c864769aea1c8e8fc86c74b0b049a"
+    }
+  }
+}

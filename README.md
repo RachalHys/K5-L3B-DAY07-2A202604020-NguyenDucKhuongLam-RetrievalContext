@@ -41,3 +41,6 @@ Chạy agent và thí nghiệm theo [hướng dẫn thực nghiệm](docs/experi
 Kết quả phần cơ bản, phân tích lỗi và giới hạn được trình bày trong
 [báo cáo cá nhân](report/individual/2A202604020_NguyenDucKhuongLam.md),
 kèm [trace và nhãn đánh giá](results/basic/README.md).
+
+Phần nâng cao dùng báo cáo WHO 291 trang; xem [cách chạy bonus](docs/bonus.md)
+và [kết quả theo nhóm](results/bonus/README.md).

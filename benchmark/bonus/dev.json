@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dev-table-01",
+    "question": "In Table 2, what is diagnosis coverage in the European Region in 2019? Give the point estimate and uncertainty interval."
+  },
+  {
+    "id": "dev-table-02",
+    "question": "In Table 3, what relative risk of heart failure is associated with a 10-mmHg blood pressure reduction, including its 95% confidence interval?"
+  },
+  {
+    "id": "dev-table-03",
+    "question": "What three scale factors does Table 7 list for clinical capacity?"
+  },
+  {
+    "id": "dev-image-01",
+    "question": "On the HEARTS implementation map in Box 2, are China and Brazil shaded as implemented? Interpret the map legend."
+  },
+  {
+    "id": "dev-image-02",
+    "question": "What does the final numbered step of the Sri Lanka protocol in Fig. 13 instruct?"
+  },
+  {
+    "id": "dev-image-03",
+    "question": "In Fig. 14, what process stage lies immediately between forecasting of drugs and storage/distribution?"
+  },
+  {
+    "id": "dev-chart-01",
+    "question": "Using Fig. 3, how did the Western Pacific number of adults aged 30–79 with hypertension change between 1990 and 2019? Give both numbers and the absolute increase."
+  },
+  {
+    "id": "dev-chart-02",
+    "question": "In Fig. 8, what share of global deaths was attributed to high systolic blood pressure through ischaemic heart disease in 1990 and 2019, and what was the change?"
+  },
+  {
+    "id": "dev-chart-03",
+    "question": "In Fig. 10, which years are represented by the orange and blue bars?"
+  },
+  {
+    "id": "dev-multi_hop-01",
+    "question": "Combine the definition in Table 1 with Table 2: what is global treatment coverage in 2019, and what population is its denominator?"
+  },
+  {
+    "id": "dev-multi_hop-02",
+    "question": "Using Table 4 and Table 5, divide progress-scenario incremental costs by projected nonfatal myocardial infarctions averted. Give the two inputs and the simple quotient; this is not an isolated cost-effectiveness estimate."
+  },
+  {
+    "id": "dev-multi_hop-03",
+    "question": "Compare the 2019 hypertension control percentages among people with hypertension in the Azerbaijan and Viet Nam profiles. Give both and their difference."
+  },
+  {
+    "id": "dev-text-01",
+    "question": "According to the executive summary, how did the worldwide number of people with hypertension change from 1990 to 2019?"
+  },
+  {
+    "id": "dev-text-02",
+    "question": "In section 2.2, name the personal environmental exposures described as the main contributors to age-related increases in blood pressure."
+  },
+  {
+    "id": "dev-text-03",
+    "question": "In the country-profile explanatory notes, how is physical inactivity defined for adults aged 18+?"
+  },
+  {
+    "id": "dev-unanswerable-01",
+    "question": "What measured worldwide hypertension prevalence for 2026 is reported in this 2023 document?"
+  },
+  {
+    "id": "dev-unanswerable-02",
+    "question": "What is the exact age in years of every participant in the Sri Lanka demonstration project?"
+  },
+  {
+    "id": "dev-unanswerable-03",
+    "question": "What exact projected number of deaths averted by 2040 is supplied for Andorra in its hypertension profile?"
+  }
+]

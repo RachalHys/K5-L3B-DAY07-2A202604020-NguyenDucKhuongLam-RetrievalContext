@@ -1,0 +1,8 @@
+{
+  "cases": 18,
+  "errors": 0,
+  "llm_calls": 60,
+  "estimated_cost_usd": 0.0142454,
+  "median_ms": 6385.853855000278,
+  "completed_at": "2026-11-16T16:38:52.187134+00:00"
+}

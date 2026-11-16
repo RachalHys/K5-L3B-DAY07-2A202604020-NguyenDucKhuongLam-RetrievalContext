@@ -1,0 +1,20 @@
+{
+  "corpus_id": "who_hypertension_2023",
+  "page_numbering": "One-based physical PDF page numbers; printed page labels may differ.",
+  "documents": [
+    {
+      "source_id": "who_hypertension_2023",
+      "title": "Global report on hypertension: the race against a silent killer",
+      "publication_year": 2023,
+      "isbn": "9789240081062",
+      "language": "en",
+      "source_path_or_url": "data/raw/who/global_hypertension_2023.pdf",
+      "source_url": "https://www.who.int/publications/i/item/9789240081062",
+      "download_url": "https://digitallibrary.un.org/record/4022066/files/1384062_EN.pdf",
+      "sha256": "67b96f51a8e8b8261319eb59f0b09b970628c74f068c28b92bcb858ce0ac502b",
+      "physical_page_count": 291,
+      "license_or_permission": "CC BY-NC-SA 3.0 IGO; see PDF page 4. Third-party figures/tables may require separate permission. No WHO endorsement is implied.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "pdf_pages": 291,
+  "rendered_pages": 291,
+  "indexed_pages": 284,
+  "excluded_pages": [
+    {
+      "pdf_page": 1,
+      "reason": "Front cover"
+    },
+    {
+      "pdf_page": 2,
+      "reason": "Blank"
+    },
+    {
+      "pdf_page": 3,
+      "reason": "Repeated title"
+    },
+    {
+      "pdf_page": 10,
+      "reason": "Photo-only page without useful OCR; original accessible through read_pages."
+    },
+    {
+      "pdf_page": 18,
+      "reason": "Photo-only page without useful OCR; original accessible through read_pages."
+    },
+    {
+      "pdf_page": 48,
+      "reason": "Photo-only page without useful OCR; original accessible through read_pages."
+    },
+    {
+      "pdf_page": 291,
+      "reason": "Back cover/contact"
+    }
+  ],
+  "failed_pages": [],
+  "extraction": "Tesseract 5.3.4 eng, psm3; original rendered pages at 144 dpi",
+  "runtime_seconds": 134.4193732069998,
+  "index_sha256": "995cffdd51e8e7ea46914b14056623eca7eb3c204b815bd6749753c1ad0430ba",
+  "limitations": [
+    "Small raster diagrams retain original resolution; fine print may be unreadable.",
+    "OCR is for retrieval only; answers are checked against original page images."
+  ]
+}

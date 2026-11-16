@@ -1,0 +1,425 @@
+[
+  {
+    "id": "dev-table-01",
+    "group": "table",
+    "question": "In Table 2, what is diagnosis coverage in the European Region in 2019? Give the point estimate and uncertainty interval.",
+    "answerable": true,
+    "expected_answer": "66% (69%, 63%); preserve the interval endpoints as printed.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 22,
+        "bbox_normalized": [
+          0.08,
+          0.6,
+          0.91,
+          0.84
+        ],
+        "description": "Table 2, European row, diagnosis coverage column"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-table-02",
+    "group": "table",
+    "question": "In Table 3, what relative risk of heart failure is associated with a 10-mmHg blood pressure reduction, including its 95% confidence interval?",
+    "answerable": true,
+    "expected_answer": "0.72 (0.67–0.78).",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 34,
+        "bbox_normalized": [
+          0.3,
+          0.55,
+          0.91,
+          0.86
+        ],
+        "description": "Table 3, Heart failure row"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-table-03",
+    "group": "table",
+    "question": "What three scale factors does Table 7 list for clinical capacity?",
+    "answerable": true,
+    "expected_answer": "PHC facilities, PHC staffing, decentralization.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 67,
+        "bbox_normalized": [
+          0.07,
+          0.58,
+          0.91,
+          0.86
+        ],
+        "description": "Table 7, Clinical capacity row"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-image-01",
+    "group": "image",
+    "question": "On the HEARTS implementation map in Box 2, are China and Brazil shaded as implemented? Interpret the map legend.",
+    "answerable": true,
+    "expected_answer": "Both China and Brazil are blue, indicating implemented.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 54,
+        "bbox_normalized": [
+          0.08,
+          0.3,
+          0.91,
+          0.63
+        ],
+        "description": "Box 2 map, labelled China and Brazil; blue Implemented legend"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-image-02",
+    "group": "image",
+    "question": "What does the final numbered step of the Sri Lanka protocol in Fig. 13 instruct?",
+    "answerable": true,
+    "expected_answer": "Step 5: refer to a hypertension specialist.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 55,
+        "bbox_normalized": [
+          0.54,
+          0.57,
+          0.85,
+          0.88
+        ],
+        "description": "Fig.13, bottom of five-step sequence"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-image-03",
+    "group": "image",
+    "question": "In Fig. 14, what process stage lies immediately between forecasting of drugs and storage/distribution?",
+    "answerable": true,
+    "expected_answer": "Procurement (stage 3).",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 57,
+        "bbox_normalized": [
+          0.5,
+          0.37,
+          0.87,
+          0.5
+        ],
+        "description": "Fig.14 five-stage supply-chain diagram"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-chart-01",
+    "group": "chart",
+    "question": "Using Fig. 3, how did the Western Pacific number of adults aged 30–79 with hypertension change between 1990 and 2019? Give both numbers and the absolute increase.",
+    "answerable": true,
+    "expected_answer": "144 million to 346 million; increase 202 million.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 23,
+        "bbox_normalized": [
+          0.08,
+          0.3,
+          0.91,
+          0.9
+        ],
+        "description": "Fig.3 Western Pacific bubbles for 1990 and 2019"
+      }
+    ],
+    "calculation": "346 − 144 = 202 million",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-chart-02",
+    "group": "chart",
+    "question": "In Fig. 8, what share of global deaths was attributed to high systolic blood pressure through ischaemic heart disease in 1990 and 2019, and what was the change?",
+    "answerable": true,
+    "expected_answer": "7% and 9%; increase 2 percentage points.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 29,
+        "bbox_normalized": [
+          0.09,
+          0.44,
+          0.9,
+          0.66
+        ],
+        "description": "Fig.8 ischaemic heart disease segments and legend"
+      }
+    ],
+    "calculation": "9 − 7 = 2 percentage points",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-chart-03",
+    "group": "chart",
+    "question": "In Fig. 10, which years are represented by the orange and blue bars?",
+    "answerable": true,
+    "expected_answer": "Orange 2023; blue 2050.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 35,
+        "bbox_normalized": [
+          0.08,
+          0.46,
+          0.9,
+          0.91
+        ],
+        "description": "Fig.10 legend to the right of panels"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-multi_hop-01",
+    "group": "multi_hop",
+    "question": "Combine the definition in Table 1 with Table 2: what is global treatment coverage in 2019, and what population is its denominator?",
+    "answerable": true,
+    "expected_answer": "42% (45%,40%); adults aged 30–79 with hypertension, rather than all adults.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 19,
+        "bbox_normalized": [
+          0.08,
+          0.5,
+          0.91,
+          0.86
+        ],
+        "description": "Table1 Treatment coverage denominator"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 22,
+        "bbox_normalized": [
+          0.08,
+          0.6,
+          0.91,
+          0.84
+        ],
+        "description": "Table2 Global treatment coverage"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-multi_hop-02",
+    "group": "multi_hop",
+    "question": "Using Table 4 and Table 5, divide progress-scenario incremental costs by projected nonfatal myocardial infarctions averted. Give the two inputs and the simple quotient; this is not an isolated cost-effectiveness estimate.",
+    "answerable": true,
+    "expected_answer": "Int$300 billion / 79 million = approximately Int$3,797 per projected nonfatal myocardial infarction averted; costs also produce other benefits.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 37,
+        "bbox_normalized": [
+          0.08,
+          0.32,
+          0.91,
+          0.48
+        ],
+        "description": "Table4 progress nonfatal myocardial infarctions79million"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 39,
+        "bbox_normalized": [
+          0.08,
+          0.57,
+          0.72,
+          0.84
+        ],
+        "description": "Table5 progress incremental costs300billion"
+      }
+    ],
+    "calculation": "300000 million / 79 million = 3797.47 Int$",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-multi_hop-03",
+    "group": "multi_hop",
+    "question": "Compare the 2019 hypertension control percentages among people with hypertension in the Azerbaijan and Viet Nam profiles. Give both and their difference.",
+    "answerable": true,
+    "expected_answer": "Azerbaijan 14%, Viet Nam 13%; Azerbaijan 1 percentage point higher.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 100,
+        "bbox_normalized": [
+          0.5,
+          0.14,
+          0.94,
+          0.35
+        ],
+        "description": "Treatment cascade controlled14%"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 280,
+        "bbox_normalized": [
+          0.5,
+          0.14,
+          0.94,
+          0.35
+        ],
+        "description": "Treatment cascade controlled13%"
+      }
+    ],
+    "calculation": "14 − 13 = 1 percentage point",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-text-01",
+    "group": "text",
+    "question": "According to the executive summary, how did the worldwide number of people with hypertension change from 1990 to 2019?",
+    "answerable": true,
+    "expected_answer": "It doubled, from 650 million to 1.3 billion.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 11,
+        "bbox_normalized": [
+          0.08,
+          0.14,
+          0.91,
+          0.36
+        ],
+        "description": "Executive summary opening paragraph"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-text-02",
+    "group": "text",
+    "question": "In section 2.2, name the personal environmental exposures described as the main contributors to age-related increases in blood pressure.",
+    "answerable": true,
+    "expected_answer": "Poor-quality diet high in sodium and low in potassium; overweight/obesity; alcohol; tobacco; physical inactivity.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 23,
+        "bbox_normalized": [
+          0.08,
+          0.06,
+          0.72,
+          0.28
+        ],
+        "description": "Section2.2 opening paragraph"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-text-03",
+    "group": "text",
+    "question": "In the country-profile explanatory notes, how is physical inactivity defined for adults aged 18+?",
+    "answerable": true,
+    "expected_answer": "Less than 150 minutes moderate activity/week, or less than 75 minutes vigorous/week, or equivalent.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 288,
+        "bbox_normalized": [
+          0.3,
+          0.08,
+          0.91,
+          0.35
+        ],
+        "description": "Physical inactivity definition first paragraph"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-unanswerable-01",
+    "group": "unanswerable",
+    "question": "What measured worldwide hypertension prevalence for 2026 is reported in this 2023 document?",
+    "answerable": false,
+    "expected_answer": "Abstain: no measured 2026 prevalence in the document.",
+    "evidence": [],
+    "calculation": null,
+    "absence_check": "Review publication date, global prevalence section, country profiles and years; observed data precede2026; scenario projections are not measured prevalence.",
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-unanswerable-02",
+    "group": "unanswerable",
+    "question": "What is the exact age in years of every participant in the Sri Lanka demonstration project?",
+    "answerable": false,
+    "expected_answer": "Abstain: no individual participant ages.",
+    "evidence": [],
+    "calculation": null,
+    "absence_check": "Review Sri Lanka Box3 and whole-document searches participant/age; aggregate age groups do not give individual records.",
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "dev-unanswerable-03",
+    "group": "unanswerable",
+    "question": "What exact projected number of deaths averted by 2040 is supplied for Andorra in its hypertension profile?",
+    "answerable": false,
+    "expected_answer": "Abstain: scenario panel says Data not available.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 93,
+        "bbox_normalized": [
+          0.5,
+          0.36,
+          0.94,
+          0.58
+        ],
+        "description": "Andorra profile scenario panel"
+      }
+    ],
+    "calculation": null,
+    "absence_check": "Inspect Andorra original profile and relevant scenario notes; panel is explicitly unavailable, no other Andorra death projection found.",
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  }
+]

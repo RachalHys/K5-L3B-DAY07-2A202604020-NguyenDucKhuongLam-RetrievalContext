@@ -1,6 +1,6 @@
 # Báo cáo Day 7 — Agentic RAG
 
-**Nguyễn Đức Khương Lâm · MSSV 2A202604020 · Phần cơ bản · 16/11/2026**
+**Nguyễn Đức Khương Lâm · MSSV 2A202604020 · Phần cơ bản và nâng cao · 16/11/2026**
 
 ## Dữ liệu và benchmark
 
@@ -159,3 +159,100 @@ lần chạy lại và nhãn chưa được chấm độc lập. Điểm dev ph�
 không thay thế đánh giá trên dữ liệu mới. Các thay đổi context chưa có
 thí nghiệm tách riêng từng yếu tố; model alias và query do model viết cũng
 có thể làm kết quả thay đổi giữa các lần chạy.
+
+## Thử thách nâng cao
+
+### Tài liệu và xử lý
+
+Phần nâng cao dùng báo cáo WHO *Global report on hypertension: the race
+against a silent killer* (2023), **291 trang**, ISBN 9789240081062. Tài liệu
+có 7 bảng chính, nhiều biểu đồ, bản đồ triển khai HEARTS và sơ đồ quy trình.
+[Nguồn và quyền sử dụng](../../data/bonus/manifest.json) ghi giấy phép
+CC BY-NC-SA 3.0 IGO; nội dung bên thứ ba có điều kiện riêng. PDF và ảnh được
+tải/render cục bộ, không phân phối lại trong repo.
+
+Toàn bộ 291 trang được render ở 144 dpi bằng PyMuPDF 1.26.7 và OCR tiếng Anh
+bằng Tesseract 5.3.4. **284 trang được index**, gồm đủ 194 hồ sơ quốc gia;
+7 trang bị loại là bìa, trang trắng, tiêu đề lặp và ảnh minh họa không có
+thông tin truy vấn. [Thống kê xử lý](../../data/bonus/coverage.json) ghi
+chi tiết từng trang. Thời gian chuẩn bị khoảng **134 giây** trên CPU.
+
+OCR trên ảnh hiển thị tránh lấy các lớp text template bị che trong PDF.
+Mỗi trang giữ từ OCR, vị trí, confidence, nhãn trang in và checksum ảnh.
+Trang được chia thành ba vùng ngang có tọa độ chuẩn hóa để trích dẫn.
+BM25 tìm trang theo OCR; query có số bảng/hình/box được tra thêm bookmark.
+Agent tự chọn query hoặc đọc trang theo tham chiếu, sau đó xem crop gốc
+có ID vùng để kiểm tra số liệu, đơn vị và chú giải. Citation như
+`[who-p022-bottom]` xác định trang PDF và phần ba dưới của trang.
+
+Không huấn luyện thêm model hoặc dùng bảng đáp án để điều khiển retrieval.
+Agent kế thừa API `gpt-6-luna`, tăng giới hạn lên 1.800 output tokens/call;
+OCR chỉ phục vụ tìm kiếm, ảnh gốc là bằng chứng khi đọc nội dung trực quan.
+
+### Benchmark và chọn cấu hình
+
+[Benchmark nâng cao](../../benchmark/bonus/README.md) được chia và khóa trước
+thử nghiệm: dev **18 câu** gồm 15 có đáp án và 3 thiếu evidence; test **30 câu**
+gồm 24 có đáp án và 6 thiếu evidence. Mỗi câu có một nhóm chính. Dev/test
+có thể dùng chung hình hoặc bảng nhưng hỏi các mục tiêu khác nhau; câu
+multi-hop cần ít nhất hai trang. Input tách khỏi đáp án, vùng evidence,
+điều kiện, phép tính và cách kiểm tra trường hợp thiếu bằng chứng.
+
+Chấm mỗi câu đạt hoặc không đạt theo đề: đúng và đủ, đúng điều kiện/đơn vị,
+citation hỗ trợ toàn bộ câu trả lời; trả lời một phần và lỗi hệ thống tính
+không đạt. Câu thiếu evidence đạt khi từ chối rõ, không suy đoán. Tất cả câu
+đều nằm trong mẫu số. Nhãn được đối chiếu ảnh PDF gốc.
+
+| Cấu hình dev | Trang/search | Tool tối đa | Context tối đa | Đạt / tổng | Median/câu | Chi phí |
+|---|---:|---:|---:|---:|---:|---:|
+| OCR text | 2 | 3 | 4 trang | 14/18 (77,8%) | 6,39 giây | 0,0142 USD |
+| Page vision | 3 | 4 | 6 trang | **18/18 (100%)** | 7,93 giây | 0,0264 USD |
+
+Dev ban đầu có lỗi do kiểm tra citation trong câu từ chối quá chặt, tìm
+nhầm hình và xác định sai vùng trên ảnh cả trang. Sau khi sửa, hai cấu hình
+được chạy lại trên cùng benchmark. Tra cứu bookmark khắc phục lỗi tìm hình;
+crop có nhãn giúp chọn đúng vùng. Vision đọc được số trong biểu đồ bong bóng
+và phân biệt số liệu cả hai giới với nam/nữ mà OCR text nhầm. Ví dụ, OCR
+trả 9% và 11% cho tỷ lệ kiểm soát ở Azerbaijan/Viet Nam, trong khi ảnh gốc
+cho cả hai giới là 14% và 13%.
+
+Chọn Page vision theo tỷ lệ đạt dev, sau đó số lỗi và chi phí. Code, corpus,
+model, cấu hình và benchmark được [khóa trước test](../../configs/bonus-selected.json).
+Không chỉnh pipeline bằng kết quả test.
+
+### Kết quả test
+
+| Nhóm test | Đạt / tổng | Tỷ lệ | Nhận xét |
+|---|---:|---:|---|
+| Bảng | 6/6 | 100% | Đúng ô, đơn vị và phép tính |
+| Ảnh, sơ đồ | 4/5 | 80% | Một câu thêm chi tiết chưa kiểm chứng được |
+| Biểu đồ | 5/5 | 100% | Đọc đúng giá trị, chú giải và xu hướng |
+| Multi-hop | 4/4 | 100% | Kết hợp đủ evidence từ hai trang |
+| Text | 4/4 | 100% | Giữ đúng định nghĩa và điều kiện |
+| Thiếu bằng chứng | 6/6 | 100% | Từ chối đúng, không đoán số liệu |
+| **Toàn bộ** | **29/30** | **96,7%** | **0 lỗi hệ thống; vượt ngưỡng 90%** |
+
+Ví dụ, agent đọc 45 và 106 triệu người ở hai bong bóng African Region,
+tính tăng 61 triệu; kết hợp bảng chi phí với bảng lợi ích để tính đúng
+thương số có đơn vị. Với Monaco thiếu dữ liệu hoặc giá mua thuốc cụ thể
+của Telangana không được công bố, agent từ chối thay vì suy từ số liệu gần đó.
+
+Câu chưa đạt đọc đúng losartan 50 mg và amlodipine 5 mg nhưng thêm “once
+daily”; phần chữ nhỏ trong sơ đồ không đủ rõ để kiểm chứng chắc chắn chi
+tiết này. Hai câu từ chối còn trích vùng chưa sát panel/hàng liên quan nhất,
+được ghi rõ trong nhãn; không phát sinh khẳng định số liệu thiếu căn cứ.
+
+Test dùng **69 model calls**, median **7,98 giây/câu**, chi phí khoảng
+**0,0478 USD**. Tổng các vòng benchmark nâng cao khoảng **0,1402 USD**;
+không gồm kiểm tra kết nối ban đầu. Vision tăng chi phí dev
+nhưng khắc phục các lỗi đọc số và bố cục của OCR. Không cần GPU.
+
+[Trace và nhãn từng câu](../../results/bonus/README.md) giữ cả lỗi dev ban đầu,
+context, tool calls, câu trả lời, citation, usage và thời gian. Checksum crop
+thay cho base64 lặp trong trace; PDF, tọa độ vùng và renderer đủ để tái tạo
+ảnh đã gửi. [Hướng dẫn bonus](../../docs/bonus.md) trình bày lệnh chạy và kiểm tra.
+
+Kết quả đáp ứng ngưỡng bonus trên bộ test đã công bố. Giới hạn còn lại là
+hình raster nhỏ, OCR chưa hoàn hảo và vùng citation khá rộng. Benchmark do
+bài làm biên soạn trên cùng tài liệu, nhiều câu nêu số bảng/hình, nhãn chưa
+được chấm độc lập; kết quả không đại diện cho mọi tài liệu đa phương thức.

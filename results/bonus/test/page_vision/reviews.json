@@ -1,0 +1,727 @@
+[
+  {
+    "query_id": "test-chart-01",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: 45 million and 106 million; increase 61 million.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 23,
+        "bbox_normalized": [
+          0.08,
+          0.3,
+          0.91,
+          0.9
+        ],
+        "description": "Fig3 African bubbles and years"
+      }
+    ],
+    "answer": "Fig. 3 shows 45 million adults aged 30–79 with hypertension in the African Region in 1990 and 106 million in 2019—an absolute increase of 61 million (45m to 106m) [who-p023-middle] [who-p023-bottom].",
+    "citations": [
+      "who-p023-middle",
+      "who-p023-bottom"
+    ]
+  },
+  {
+    "query_id": "test-chart-02",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Men 18%,women 23%;women 5 percentage points higher.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 24,
+        "bbox_normalized": [
+          0.08,
+          0.46,
+          0.91,
+          0.9
+        ],
+        "description": "Fig4 Controlled dark-blue segments,men/women"
+      }
+    ],
+    "answer": "In Fig. 4, hypertension was controlled in 18% of men and 23% of women in 2019. The female–male gap was 5 percentage points (women higher). [who-p024-bottom]",
+    "citations": [
+      "who-p024-bottom"
+    ]
+  },
+  {
+    "query_id": "test-chart-03",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Western Pacific Region,3.2 million.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 29,
+        "bbox_normalized": [
+          0.08,
+          0.68,
+          0.91,
+          0.9
+        ],
+        "description": "Fig9 2019 segments and colour legend"
+      }
+    ],
+    "answer": "The Western Pacific Region had the largest number: 3.2 million deaths in 2019. [who-p029-bottom]",
+    "citations": [
+      "who-p029-bottom"
+    ]
+  },
+  {
+    "query_id": "test-chart-04",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: 39 million and 209 million; increase 170 million.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 57,
+        "bbox_normalized": [
+          0.1,
+          0.66,
+          0.9,
+          0.9
+        ],
+        "description": "Fig15 Telangana bars, year legend and right-axis unit"
+      }
+    ],
+    "answer": "Telangana procured 39 million tablets in 2017/18 and 209 million in 2020/21—an increase of 170 million tablets. [who-p057-bottom]",
+    "citations": [
+      "who-p057-bottom"
+    ]
+  },
+  {
+    "query_id": "test-chart-05",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: High-income countries(HIC);probability of dying from CVD between ages 30 and 80 years(%).",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 37,
+        "bbox_normalized": [
+          0.08,
+          0.54,
+          0.91,
+          0.88
+        ],
+        "description": "Fig12 three panels,y-axis and income-group legend"
+      }
+    ],
+    "answer": "The high-income group (HIC) has the lowest cardiovascular-mortality curve in all three scenarios. The vertical axis is the probability of dying from cardiovascular disease between ages 30 and 80 (CVD-specific 50q30). [who-p037-middle] [who-p037-bottom]",
+    "citations": [
+      "who-p037-middle",
+      "who-p037-bottom"
+    ]
+  },
+  {
+    "query_id": "test-image-01",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Blue=Implemented;grey=Not applicable.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 54,
+        "bbox_normalized": [
+          0.08,
+          0.3,
+          0.91,
+          0.63
+        ],
+        "description": "Map legend"
+      }
+    ],
+    "answer": "In the HEARTS implementation map, blue means “Implemented” and grey means “Not applicable.” [who-p054-middle]",
+    "citations": [
+      "who-p054-middle"
+    ]
+  },
+  {
+    "query_id": "test-image-02",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Any two of British Virgin Islands, Anguilla, Antigua and Barbuda, Saint Kitts and Nevis, Montserrat, Dominica, Saint Lucia, Barbados, Saint Vincent and the Grenadines, Grenada.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 54,
+        "bbox_normalized": [
+          0.29,
+          0.32,
+          0.44,
+          0.45
+        ],
+        "description": "Labelled Caribbean inset"
+      }
+    ],
+    "answer": "Two named island territories in the Caribbean inset are the British Virgin Islands and Anguilla. [who-p054-middle]",
+    "citations": [
+      "who-p054-middle"
+    ]
+  },
+  {
+    "query_id": "test-image-03",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Both Nigeria and Ethiopia are blue, indicating implemented.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 54,
+        "bbox_normalized": [
+          0.08,
+          0.3,
+          0.91,
+          0.63
+        ],
+        "description": "Nigeria/Ethiopia labels and blue shading; legend"
+      }
+    ],
+    "answer": "Yes. Both Nigeria and Ethiopia are shaded light blue, which the map legend identifies as “Implemented.” [who-p054-middle]",
+    "citations": [
+      "who-p054-middle"
+    ]
+  },
+  {
+    "query_id": "test-image-04",
+    "passed": false,
+    "reason": "Không đạt theo tiêu chí đầy đủ evidence: hai thuốc và liều50mg/5mg đúng, nhưng câu trả lời thêm once daily. Chữ nhỏ trong Fig.13 quá mờ để kiểm chứng chắc chắn tần suất này từ các vùng được cite; không chấp nhận chi tiết bổ sung chỉ vì có vẻ hợp lý.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 55,
+        "bbox_normalized": [
+          0.54,
+          0.57,
+          0.85,
+          0.88
+        ],
+        "description": "Fig13 step1 main bold line"
+      }
+    ],
+    "answer": "Step 1 prescribes losartan 50 mg plus amlodipine 5 mg once daily. [who-p055-middle] [who-p055-bottom]",
+    "citations": [
+      "who-p055-middle",
+      "who-p055-bottom"
+    ]
+  },
+  {
+    "query_id": "test-image-05",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Hydrochlorothiazide 25 mg.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 55,
+        "bbox_normalized": [
+          0.54,
+          0.57,
+          0.85,
+          0.88
+        ],
+        "description": "Fig13 step3"
+      }
+    ],
+    "answer": "At step 3, add hydrochlorothiazide 25 mg. [who-p055-bottom]",
+    "citations": [
+      "who-p055-bottom"
+    ]
+  },
+  {
+    "query_id": "test-multi_hop-01",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Americas 60%,Viet Nam 30%;Americas 30 percentage points higher.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 22,
+        "bbox_normalized": [
+          0.08,
+          0.6,
+          0.91,
+          0.84
+        ],
+        "description": "Table2 The Americas Treatment coverage60%"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 280,
+        "bbox_normalized": [
+          0.5,
+          0.14,
+          0.94,
+          0.35
+        ],
+        "description": "Viet Nam cascade treated30%"
+      }
+    ],
+    "answer": "The Region of the Americas had 60% treatment coverage, compared with 30% in Viet Nam—a 30 percentage-point gap (Americas higher). [who-p022-bottom] [who-p280-top]",
+    "citations": [
+      "who-p022-bottom",
+      "who-p280-top"
+    ]
+  },
+  {
+    "query_id": "test-multi_hop-02",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Int$300 billion /76 million = approximately Int$3,947 per projected cardiovascular death averted; the costs also yield other health benefits.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 37,
+        "bbox_normalized": [
+          0.08,
+          0.32,
+          0.91,
+          0.48
+        ],
+        "description": "Table4 Cardiovascular deaths averted76million"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 39,
+        "bbox_normalized": [
+          0.08,
+          0.57,
+          0.72,
+          0.84
+        ],
+        "description": "Table5 incremental costs300billion"
+      }
+    ],
+    "answer": "Table 5 progress-scenario incremental costs: Int$300 billion [who-p039-bottom]. Table 4 progress-scenario cardiovascular deaths averted: 76 million [who-p037-middle]. Simple quotient: Int$300 billion ÷ 76 million = about Int$3,947 per cardiovascular death averted (approximately Int$3,950). This is only the requested arithmetic quotient, not an isolated cost-effectiveness estimate.",
+    "citations": [
+      "who-p039-bottom",
+      "who-p037-middle"
+    ]
+  },
+  {
+    "query_id": "test-multi_hop-03",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: 671,000 deaths;around 50%effective treatment/control coverage.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 280,
+        "bbox_normalized": [
+          0.5,
+          0.36,
+          0.94,
+          0.58
+        ],
+        "description": "Viet Nam scenario callout671000deaths by2040"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 285,
+        "bbox_normalized": [
+          0.3,
+          0.56,
+          0.91,
+          0.88
+        ],
+        "description": "Progress scenario definition around50%effective coverage"
+      }
+    ],
+    "answer": "Viet Nam’s progress scenario would avert 671,000 deaths by 2040. It aims to reach around 50% effective hypertension coverage. [who-p280-middle] [who-p285-bottom]",
+    "citations": [
+      "who-p280-middle",
+      "who-p285-bottom"
+    ]
+  },
+  {
+    "query_id": "test-multi_hop-04",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Azerbaijan 41%,Viet Nam 30%;Azerbaijan 11 percentage points higher.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 100,
+        "bbox_normalized": [
+          0.05,
+          0.08,
+          0.95,
+          0.14
+        ],
+        "description": "Azerbaijan profile headline both-sex prevalence41%"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 280,
+        "bbox_normalized": [
+          0.05,
+          0.08,
+          0.95,
+          0.14
+        ],
+        "description": "Viet Nam headline both-sex prevalence30%"
+      }
+    ],
+    "answer": "Azerbaijan: 41%; Viet Nam: 30%. Azerbaijan’s prevalence was 11 percentage points higher. [who-p100-top] [who-p280-top]",
+    "citations": [
+      "who-p100-top",
+      "who-p280-top"
+    ]
+  },
+  {
+    "query_id": "test-table-01",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: African 27%, Americas 60%; Americas 33 percentage points higher.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 22,
+        "bbox_normalized": [
+          0.08,
+          0.6,
+          0.91,
+          0.84
+        ],
+        "description": "Table2 African and The Americas rows, Treatment coverage"
+      }
+    ],
+    "answer": "Table 2 reports 2019 treatment coverage of 27% in the African Region and 60% in the Region of the Americas—a 33 percentage-point higher estimate in the Americas. [who-p022-bottom]",
+    "citations": [
+      "who-p022-bottom"
+    ]
+  },
+  {
+    "query_id": "test-table-02",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: 0.73 (0.68–0.77).",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 34,
+        "bbox_normalized": [
+          0.3,
+          0.55,
+          0.91,
+          0.86
+        ],
+        "description": "Table3 Stroke row"
+      }
+    ],
+    "answer": "Table 3 reports a relative risk for stroke of 0.73 (95% confidence interval: 0.68–0.77) per 10-mmHg blood pressure reduction. [who-p034-bottom]",
+    "citations": [
+      "who-p034-bottom"
+    ]
+  },
+  {
+    "query_id": "test-table-03",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: 120 million and 200 million; aspirational 80 million more.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 37,
+        "bbox_normalized": [
+          0.08,
+          0.32,
+          0.91,
+          0.48
+        ],
+        "description": "Table4 Nonfatal strokes averted row"
+      }
+    ],
+    "answer": "Table 4 projects 120 million nonfatal strokes averted under the progress scenario and 200 million under the aspirational scenario (2023–2050), a difference of 80 million more under the aspirational scenario. [who-p037-middle]",
+    "citations": [
+      "who-p037-middle"
+    ]
+  },
+  {
+    "query_id": "test-table-04",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Int$5.3 trillion and Int$8.5 trillion; difference Int$3.2 trillion.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 39,
+        "bbox_normalized": [
+          0.08,
+          0.57,
+          0.72,
+          0.84
+        ],
+        "description": "Table5 Economic benefits row"
+      }
+    ],
+    "answer": "Table 5 lists cumulative economic benefits of Int$ 5.3 trillion under the progress scenario and Int$ 8.5 trillion under the aspirational scenario. The aspirational scenario is higher by Int$ 3.2 trillion (2023–2050). [who-p039-bottom]",
+    "citations": [
+      "who-p039-bottom"
+    ]
+  },
+  {
+    "query_id": "test-table-05",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Every 3–6 months.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 52,
+        "bbox_normalized": [
+          0.08,
+          0.7,
+          0.91,
+          0.82
+        ],
+        "description": "Table6 recommendation7 second row"
+      }
+    ],
+    "answer": "Table 6 suggests follow-up every 3–6 months for patients whose blood pressure is under control [who-p052-bottom].",
+    "citations": [
+      "who-p052-bottom"
+    ]
+  },
+  {
+    "query_id": "test-table-06",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Simple protocol;90-day prescription;team-based care.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 67,
+        "bbox_normalized": [
+          0.08,
+          0.58,
+          0.91,
+          0.86
+        ],
+        "description": "Table7 Service delivery row"
+      }
+    ],
+    "answer": "The three service-delivery scale factors are **Simple protocol**, **90-day Rx**, and **Team-based care**. [who-p067-middle]",
+    "citations": [
+      "who-p067-middle"
+    ]
+  },
+  {
+    "query_id": "test-text-01",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Taking medication for hypertension with SBP<140 mmHg and DBP<90 mmHg;denominator adults aged 30–79 with hypertension.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 19,
+        "bbox_normalized": [
+          0.08,
+          0.66,
+          0.91,
+          0.83
+        ],
+        "description": "Table1 Effective treatment coverage definition"
+      }
+    ],
+    "answer": "Effective treatment coverage counts people with controlled hypertension: they are taking hypertension medication, with systolic blood pressure (SBP) <140 mmHg and diastolic blood pressure (DBP) <90 mmHg. The denominator is adults aged 30–79 years with hypertension, as defined in Table 1. [who-p019-bottom]",
+    "citations": [
+      "who-p019-bottom"
+    ]
+  },
+  {
+    "query_id": "test-text-02",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: Multiply crude hypertension prevalence by the population aged 30–79 from the 2019 UNWorld Population Prospects.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 284,
+        "bbox_normalized": [
+          0.3,
+          0.48,
+          0.91,
+          0.64
+        ],
+        "description": "Number of adults30–79with hypertension2019 definition"
+      }
+    ],
+    "answer": "It is calculated by multiplying the crude prevalence of hypertension by the number of adults aged 30–79, using the 2019 population estimate from the United Nations Population Division’s World Population Prospects. [who-p284-middle]",
+    "citations": [
+      "who-p284-middle"
+    ]
+  },
+  {
+    "query_id": "test-text-03",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: WHO 2021 NCDcountry capacity survey;countries counted as having targets submitted evidence/documentation of targets to WHO.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 288,
+        "bbox_normalized": [
+          0.3,
+          0.42,
+          0.91,
+          0.75
+        ],
+        "description": "National targets definition under National response"
+      }
+    ],
+    "answer": "The national-target data come from country responses to the WHO 2021 NCD Country Capacity Survey (NCD CCS). To count as having a salt or blood-pressure target, a country had to provide documentation of a national target based on the WHO Global Monitoring Framework for NCDs; countries shown as having either target submitted evidence to WHO. [who-p288-middle]",
+    "citations": [
+      "who-p288-middle"
+    ]
+  },
+  {
+    "query_id": "test-text-04",
+    "passed": true,
+    "reason": "Đáp án, phép tính/điều kiện và vùng citation khớp ảnh PDF gốc: 110–115 mmHg.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 29,
+        "bbox_normalized": [
+          0.08,
+          0.08,
+          0.72,
+          0.43
+        ],
+        "description": "Section2.6 theoretical minimum risk level"
+      }
+    ],
+    "answer": "Section 2.6 identifies the theoretical minimum-risk systolic blood pressure as 110–115 mmHg for the 2019 mortality comparison. [who-p029-middle]",
+    "citations": [
+      "who-p029-middle"
+    ]
+  },
+  {
+    "query_id": "test-unanswerable-01",
+    "passed": true,
+    "reason": "Từ chối đúng và không suy đoán giá trị thiếu. Đã kiểm tra: Inspect Viet Nam profile, explanatory notes, publication year and document-wide Vietnam/2024 searches;2019observations and scenario projections are different quantities.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [],
+    "answer": "The report does not give a measured hypertension-control percentage for Viet Nam in 2024. Its Viet Nam profile reports 13% controlled for 2019 (both sexes); the profile defines control as treated adults aged 30–79 with blood pressure below 140/90 mmHg. [who-p280-top] [who-p280-bottom]",
+    "citations": [
+      "who-p280-top",
+      "who-p280-bottom"
+    ]
+  },
+  {
+    "query_id": "test-unanswerable-02",
+    "passed": true,
+    "reason": "Từ chối đúng và không suy đoán giá trị thiếu. Đã kiểm tra: Inspect original Monaco profile:headline no data and graph Data not available;no supported numerical estimate elsewhere.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 202,
+        "bbox_normalized": [
+          0.05,
+          0.08,
+          0.95,
+          0.14
+        ],
+        "description": "Monaco headline prevalence no data"
+      }
+    ],
+    "answer": "The report lists Monaco’s both-sex age-standardized hypertension prevalence among adults aged 30–79 in 2019 as **data not available**. [who-p202-top]",
+    "citations": [
+      "who-p202-top"
+    ]
+  },
+  {
+    "query_id": "test-unanswerable-03",
+    "passed": true,
+    "reason": "Từ chối đúng: profile San Marino không có tỷ lệ điều trị2019. Vùng top hiển thị panel thiếu dữ liệu; citation middle cho các panel khác cũng thiếu dữ liệu, chưa trỏ trực tiếp panel điều trị. Tiêu chí câu thiếu evidence không bắt buộc citation; không có số liệu được suy đoán.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 239,
+        "bbox_normalized": [
+          0.5,
+          0.14,
+          0.94,
+          0.35
+        ],
+        "description": "San Marino treatment cascade Data not available"
+      }
+    ],
+    "answer": "The San Marino profile reports no data for the 2019 treatment percentage, so the percentage cannot be determined from the profile. [who-p239-middle]",
+    "citations": [
+      "who-p239-middle"
+    ]
+  },
+  {
+    "query_id": "test-unanswerable-04",
+    "passed": true,
+    "reason": "Từ chối đúng và không suy đoán giá trị thiếu. Đã kiểm tra: Search amlodipine/Telangana/procurement/price and inspect Box4/Fig15/Table5;volume in millions does not establish a tablet procurement price.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [],
+    "answer": "The report does not state a unit price Telangana paid per amlodipine tablet in 2020/21. Its Telangana figure for that year is procurement volume—209 million tablets—not price [who-p057-bottom]. The report gives a general statement that amlodipine is generally available for US$0.01 per tablet or less, but it does not identify that as Telangana’s 2020/21 price [who-p058-middle].",
+    "citations": [
+      "who-p057-bottom",
+      "who-p058-middle"
+    ]
+  },
+  {
+    "query_id": "test-unanswerable-05",
+    "passed": true,
+    "reason": "Từ chối đúng: không có số bệnh nhân Nepal bỏ hẹn trong tháng6/2023. Nhắc đến yếu tố missed-visit-rate là thông tin có trong Table7, nhưng citation bottom chưa trỏ đúng hàng ở middle. Không đưa ra số liệu Nepal thiếu căn cứ; tiêu chí abstention được đáp ứng.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [],
+    "answer": "The report does not provide a count of HEARTS patients in Nepal who missed a follow-up appointment in June 2023. It gives a general missed-visit-rate scale-up factor, but no Nepal-specific June 2023 count. [who-p067-bottom]",
+    "citations": [
+      "who-p067-bottom"
+    ]
+  },
+  {
+    "query_id": "test-unanswerable-06",
+    "passed": true,
+    "reason": "Từ chối đúng và không suy đoán giá trị thiếu. Đã kiểm tra: Inspect Viet Nam profile, population-study methodology and searches participant/name/readings;no individual Viet Nam clinical records appear.",
+    "original_evidence_checked": true,
+    "human_verified": false,
+    "evidence": [],
+    "answer": "The report does not provide individual participants’ names or their blood-pressure readings for Viet Nam’s hypertension estimate. It reports aggregate estimates instead: 14.3 million adults aged 30–79 had hypertension in 2019, with age-standardized prevalence of 30% overall (33% males; 26% females). [who-p280-top]",
+    "citations": [
+      "who-p280-top"
+    ]
+  }
+]

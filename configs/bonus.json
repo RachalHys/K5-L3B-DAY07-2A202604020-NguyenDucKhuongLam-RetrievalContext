@@ -1,0 +1,29 @@
+{
+  "pricing": {
+    "model": "gpt-6-luna",
+    "currency": "USD",
+    "input_per_million": 0.1,
+    "cached_input_per_million": 0.01,
+    "cache_write_per_million": 0.125,
+    "output_per_million": 0.5,
+    "checked_at": "2026-11-16",
+    "source": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "scope": "Estimated standard text-token charges from reported API usage; excludes local hardware/electricity and is not an invoice."
+  },
+  "configurations": [
+    {
+      "id": "ocr_text",
+      "top_k": 2,
+      "max_tools": 3,
+      "max_pages": 4,
+      "vision": false
+    },
+    {
+      "id": "page_vision",
+      "top_k": 3,
+      "max_tools": 4,
+      "max_pages": 6,
+      "vision": true
+    }
+  ]
+}

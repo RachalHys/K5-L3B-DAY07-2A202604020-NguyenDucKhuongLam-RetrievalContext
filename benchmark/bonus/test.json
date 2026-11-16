@@ -1,0 +1,122 @@
+[
+  {
+    "id": "test-table-01",
+    "question": "In Table 2, compare 2019 hypertension treatment coverage in the African Region and the Region of the Americas. Give point estimates and the gap in percentage points."
+  },
+  {
+    "id": "test-table-02",
+    "question": "In Table 3, what is the relative risk for stroke per 10-mmHg blood pressure reduction, including its 95% confidence interval?"
+  },
+  {
+    "id": "test-table-03",
+    "question": "According to Table 4, how many nonfatal strokes are projected to be averted in 2023–2050 under the progress and aspirational scenarios? Give the difference."
+  },
+  {
+    "id": "test-table-04",
+    "question": "In Table 5, what are cumulative economic benefits under the progress and aspirational scenarios, and their difference? Keep the currency and scale."
+  },
+  {
+    "id": "test-table-05",
+    "question": "What follow-up interval does Table 6 suggest for patients whose blood pressure is under control?"
+  },
+  {
+    "id": "test-table-06",
+    "question": "What three service-delivery scale factors appear in Table 7?"
+  },
+  {
+    "id": "test-image-01",
+    "question": "In the HEARTS implementation map in Box 2, what do the blue and grey legend categories mean?"
+  },
+  {
+    "id": "test-image-02",
+    "question": "On the Box 2 HEARTS map, identify two named island territories shown within the Caribbean inset rather than only the main map."
+  },
+  {
+    "id": "test-image-03",
+    "question": "Does the Box 2 HEARTS map mark Nigeria and Ethiopia as implemented? Explain using their shading and the legend."
+  },
+  {
+    "id": "test-image-04",
+    "question": "Read step 1 in the Sri Lanka treatment protocol shown in Fig.13. Which medicines and doses does it prescribe?"
+  },
+  {
+    "id": "test-image-05",
+    "question": "What medicine and dose are added at step 3 of the Sri Lanka protocol in Fig.13?"
+  },
+  {
+    "id": "test-chart-01",
+    "question": "From Fig.3, give the African Region number of adults aged 30–79 with hypertension in 1990 and 2019 and the absolute increase."
+  },
+  {
+    "id": "test-chart-02",
+    "question": "In Fig.4, what percentages of men and women with hypertension were controlled in 2019? Give the female–male gap."
+  },
+  {
+    "id": "test-chart-03",
+    "question": "In Fig.9, which WHO region has the largest number of deaths attributable to high systolic blood pressure in 2019, and how many million?"
+  },
+  {
+    "id": "test-chart-04",
+    "question": "In Fig.15, how many millions of amlodipine tablets did Telangana procure in 2017/18 and 2020/21, and what was the increase?"
+  },
+  {
+    "id": "test-chart-05",
+    "question": "In Fig.12, which income group has the lowest cardiovascular mortality curve in all three scenarios, and what is the vertical-axis outcome?"
+  },
+  {
+    "id": "test-multi_hop-01",
+    "question": "Compare treatment coverage in 2019 between the Region of the Americas in Table 2 and Viet Nam in its country profile. Give both percentages and the gap."
+  },
+  {
+    "id": "test-multi_hop-02",
+    "question": "Using Table 4 and Table 5, divide progress-scenario incremental costs by cardiovascular deaths averted. State the two inputs and the simple quotient, without interpreting it as an isolated cost-effectiveness estimate."
+  },
+  {
+    "id": "test-multi_hop-03",
+    "question": "Combine the Viet Nam profile with the explanatory notes: how many deaths would be averted by 2040 under its progress scenario, and around what effective hypertension coverage does that scenario aim to reach?"
+  },
+  {
+    "id": "test-multi_hop-04",
+    "question": "Compare both-sex age-standardized hypertension prevalence among adults 30–79 in 2019 in Azerbaijan and Viet Nam. Give both values and the difference."
+  },
+  {
+    "id": "test-text-01",
+    "question": "In Table 1, what conditions define effective treatment coverage, and what population is the denominator?"
+  },
+  {
+    "id": "test-text-02",
+    "question": "According to the explanatory notes, how is the number of adults 30–79 with hypertension in 2019 calculated?"
+  },
+  {
+    "id": "test-text-03",
+    "question": "According to the explanatory notes, what data source and year supply national targets for salt and blood pressure, and what evidence is required to count a target?"
+  },
+  {
+    "id": "test-text-04",
+    "question": "What does section 2.6 identify as the theoretical minimum-risk systolic blood pressure range used in the 2019 mortality comparison?"
+  },
+  {
+    "id": "test-unanswerable-01",
+    "question": "What measured hypertension control percentage for Viet Nam in 2024 does this report give?"
+  },
+  {
+    "id": "test-unanswerable-02",
+    "question": "What is Monaco’s both-sex age-standardized hypertension prevalence among adults 30–79 in 2019 in this report?"
+  },
+  {
+    "id": "test-unanswerable-03",
+    "question": "What percentage of adults with hypertension in San Marino were treated in 2019, according to its profile?"
+  },
+  {
+    "id": "test-unanswerable-04",
+    "question": "What exact unit price per amlodipine tablet did Telangana pay in 2020/21?"
+  },
+  {
+    "id": "test-unanswerable-05",
+    "question": "How many HEARTS patients in Nepal missed their follow-up appointment in June 2023?"
+  },
+  {
+    "id": "test-unanswerable-06",
+    "question": "What are the individual blood pressure readings and names of participants in the Viet Nam hypertension estimate?"
+  }
+]

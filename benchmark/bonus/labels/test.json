@@ -1,0 +1,688 @@
+[
+  {
+    "id": "test-table-01",
+    "group": "table",
+    "question": "In Table 2, compare 2019 hypertension treatment coverage in the African Region and the Region of the Americas. Give point estimates and the gap in percentage points.",
+    "answerable": true,
+    "expected_answer": "African 27%, Americas 60%; Americas 33 percentage points higher.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 22,
+        "bbox_normalized": [
+          0.08,
+          0.6,
+          0.91,
+          0.84
+        ],
+        "description": "Table2 African and The Americas rows, Treatment coverage"
+      }
+    ],
+    "calculation": "60 − 27 = 33 percentage points",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-table-02",
+    "group": "table",
+    "question": "In Table 3, what is the relative risk for stroke per 10-mmHg blood pressure reduction, including its 95% confidence interval?",
+    "answerable": true,
+    "expected_answer": "0.73 (0.68–0.77).",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 34,
+        "bbox_normalized": [
+          0.3,
+          0.55,
+          0.91,
+          0.86
+        ],
+        "description": "Table3 Stroke row"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-table-03",
+    "group": "table",
+    "question": "According to Table 4, how many nonfatal strokes are projected to be averted in 2023–2050 under the progress and aspirational scenarios? Give the difference.",
+    "answerable": true,
+    "expected_answer": "120 million and 200 million; aspirational 80 million more.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 37,
+        "bbox_normalized": [
+          0.08,
+          0.32,
+          0.91,
+          0.48
+        ],
+        "description": "Table4 Nonfatal strokes averted row"
+      }
+    ],
+    "calculation": "200 − 120 = 80 million",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-table-04",
+    "group": "table",
+    "question": "In Table 5, what are cumulative economic benefits under the progress and aspirational scenarios, and their difference? Keep the currency and scale.",
+    "answerable": true,
+    "expected_answer": "Int$5.3 trillion and Int$8.5 trillion; difference Int$3.2 trillion.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 39,
+        "bbox_normalized": [
+          0.08,
+          0.57,
+          0.72,
+          0.84
+        ],
+        "description": "Table5 Economic benefits row"
+      }
+    ],
+    "calculation": "8.5 − 5.3 = 3.2 trillion international dollars",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-table-05",
+    "group": "table",
+    "question": "What follow-up interval does Table 6 suggest for patients whose blood pressure is under control?",
+    "answerable": true,
+    "expected_answer": "Every 3–6 months.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 52,
+        "bbox_normalized": [
+          0.08,
+          0.7,
+          0.91,
+          0.82
+        ],
+        "description": "Table6 recommendation7 second row"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-table-06",
+    "group": "table",
+    "question": "What three service-delivery scale factors appear in Table 7?",
+    "answerable": true,
+    "expected_answer": "Simple protocol;90-day prescription;team-based care.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 67,
+        "bbox_normalized": [
+          0.08,
+          0.58,
+          0.91,
+          0.86
+        ],
+        "description": "Table7 Service delivery row"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-image-01",
+    "group": "image",
+    "question": "In the HEARTS implementation map in Box 2, what do the blue and grey legend categories mean?",
+    "answerable": true,
+    "expected_answer": "Blue=Implemented;grey=Not applicable.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 54,
+        "bbox_normalized": [
+          0.08,
+          0.3,
+          0.91,
+          0.63
+        ],
+        "description": "Map legend"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-image-02",
+    "group": "image",
+    "question": "On the Box 2 HEARTS map, identify two named island territories shown within the Caribbean inset rather than only the main map.",
+    "answerable": true,
+    "expected_answer": "Any two of British Virgin Islands, Anguilla, Antigua and Barbuda, Saint Kitts and Nevis, Montserrat, Dominica, Saint Lucia, Barbados, Saint Vincent and the Grenadines, Grenada.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 54,
+        "bbox_normalized": [
+          0.29,
+          0.32,
+          0.44,
+          0.45
+        ],
+        "description": "Labelled Caribbean inset"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-image-03",
+    "group": "image",
+    "question": "Does the Box 2 HEARTS map mark Nigeria and Ethiopia as implemented? Explain using their shading and the legend.",
+    "answerable": true,
+    "expected_answer": "Both Nigeria and Ethiopia are blue, indicating implemented.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 54,
+        "bbox_normalized": [
+          0.08,
+          0.3,
+          0.91,
+          0.63
+        ],
+        "description": "Nigeria/Ethiopia labels and blue shading; legend"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-image-04",
+    "group": "image",
+    "question": "Read step 1 in the Sri Lanka treatment protocol shown in Fig.13. Which medicines and doses does it prescribe?",
+    "answerable": true,
+    "expected_answer": "Losartan 50 mg plus amlodipine 5 mg.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 55,
+        "bbox_normalized": [
+          0.54,
+          0.57,
+          0.85,
+          0.88
+        ],
+        "description": "Fig13 step1 main bold line"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-image-05",
+    "group": "image",
+    "question": "What medicine and dose are added at step 3 of the Sri Lanka protocol in Fig.13?",
+    "answerable": true,
+    "expected_answer": "Hydrochlorothiazide 25 mg.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 55,
+        "bbox_normalized": [
+          0.54,
+          0.57,
+          0.85,
+          0.88
+        ],
+        "description": "Fig13 step3"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-chart-01",
+    "group": "chart",
+    "question": "From Fig.3, give the African Region number of adults aged 30–79 with hypertension in 1990 and 2019 and the absolute increase.",
+    "answerable": true,
+    "expected_answer": "45 million and 106 million; increase 61 million.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 23,
+        "bbox_normalized": [
+          0.08,
+          0.3,
+          0.91,
+          0.9
+        ],
+        "description": "Fig3 African bubbles and years"
+      }
+    ],
+    "calculation": "106 − 45 = 61 million",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-chart-02",
+    "group": "chart",
+    "question": "In Fig.4, what percentages of men and women with hypertension were controlled in 2019? Give the female–male gap.",
+    "answerable": true,
+    "expected_answer": "Men 18%,women 23%;women 5 percentage points higher.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 24,
+        "bbox_normalized": [
+          0.08,
+          0.46,
+          0.91,
+          0.9
+        ],
+        "description": "Fig4 Controlled dark-blue segments,men/women"
+      }
+    ],
+    "calculation": "23 − 18 = 5 percentage points",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-chart-03",
+    "group": "chart",
+    "question": "In Fig.9, which WHO region has the largest number of deaths attributable to high systolic blood pressure in 2019, and how many million?",
+    "answerable": true,
+    "expected_answer": "Western Pacific Region,3.2 million.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 29,
+        "bbox_normalized": [
+          0.08,
+          0.68,
+          0.91,
+          0.9
+        ],
+        "description": "Fig9 2019 segments and colour legend"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-chart-04",
+    "group": "chart",
+    "question": "In Fig.15, how many millions of amlodipine tablets did Telangana procure in 2017/18 and 2020/21, and what was the increase?",
+    "answerable": true,
+    "expected_answer": "39 million and 209 million; increase 170 million.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 57,
+        "bbox_normalized": [
+          0.1,
+          0.66,
+          0.9,
+          0.9
+        ],
+        "description": "Fig15 Telangana bars, year legend and right-axis unit"
+      }
+    ],
+    "calculation": "209 − 39 = 170 million tablets",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-chart-05",
+    "group": "chart",
+    "question": "In Fig.12, which income group has the lowest cardiovascular mortality curve in all three scenarios, and what is the vertical-axis outcome?",
+    "answerable": true,
+    "expected_answer": "High-income countries(HIC);probability of dying from CVD between ages 30 and 80 years(%).",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 37,
+        "bbox_normalized": [
+          0.08,
+          0.54,
+          0.91,
+          0.88
+        ],
+        "description": "Fig12 three panels,y-axis and income-group legend"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-multi_hop-01",
+    "group": "multi_hop",
+    "question": "Compare treatment coverage in 2019 between the Region of the Americas in Table 2 and Viet Nam in its country profile. Give both percentages and the gap.",
+    "answerable": true,
+    "expected_answer": "Americas 60%,Viet Nam 30%;Americas 30 percentage points higher.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 22,
+        "bbox_normalized": [
+          0.08,
+          0.6,
+          0.91,
+          0.84
+        ],
+        "description": "Table2 The Americas Treatment coverage60%"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 280,
+        "bbox_normalized": [
+          0.5,
+          0.14,
+          0.94,
+          0.35
+        ],
+        "description": "Viet Nam cascade treated30%"
+      }
+    ],
+    "calculation": "60 − 30 = 30 percentage points",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-multi_hop-02",
+    "group": "multi_hop",
+    "question": "Using Table 4 and Table 5, divide progress-scenario incremental costs by cardiovascular deaths averted. State the two inputs and the simple quotient, without interpreting it as an isolated cost-effectiveness estimate.",
+    "answerable": true,
+    "expected_answer": "Int$300 billion /76 million = approximately Int$3,947 per projected cardiovascular death averted; the costs also yield other health benefits.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 37,
+        "bbox_normalized": [
+          0.08,
+          0.32,
+          0.91,
+          0.48
+        ],
+        "description": "Table4 Cardiovascular deaths averted76million"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 39,
+        "bbox_normalized": [
+          0.08,
+          0.57,
+          0.72,
+          0.84
+        ],
+        "description": "Table5 incremental costs300billion"
+      }
+    ],
+    "calculation": "300000 million /76 million =3947.37 Int$",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-multi_hop-03",
+    "group": "multi_hop",
+    "question": "Combine the Viet Nam profile with the explanatory notes: how many deaths would be averted by 2040 under its progress scenario, and around what effective hypertension coverage does that scenario aim to reach?",
+    "answerable": true,
+    "expected_answer": "671,000 deaths;around 50%effective treatment/control coverage.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 280,
+        "bbox_normalized": [
+          0.5,
+          0.36,
+          0.94,
+          0.58
+        ],
+        "description": "Viet Nam scenario callout671000deaths by2040"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 285,
+        "bbox_normalized": [
+          0.3,
+          0.56,
+          0.91,
+          0.88
+        ],
+        "description": "Progress scenario definition around50%effective coverage"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-multi_hop-04",
+    "group": "multi_hop",
+    "question": "Compare both-sex age-standardized hypertension prevalence among adults 30–79 in 2019 in Azerbaijan and Viet Nam. Give both values and the difference.",
+    "answerable": true,
+    "expected_answer": "Azerbaijan 41%,Viet Nam 30%;Azerbaijan 11 percentage points higher.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 100,
+        "bbox_normalized": [
+          0.05,
+          0.08,
+          0.95,
+          0.14
+        ],
+        "description": "Azerbaijan profile headline both-sex prevalence41%"
+      },
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 280,
+        "bbox_normalized": [
+          0.05,
+          0.08,
+          0.95,
+          0.14
+        ],
+        "description": "Viet Nam headline both-sex prevalence30%"
+      }
+    ],
+    "calculation": "41 − 30 =11 percentage points",
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-text-01",
+    "group": "text",
+    "question": "In Table 1, what conditions define effective treatment coverage, and what population is the denominator?",
+    "answerable": true,
+    "expected_answer": "Taking medication for hypertension with SBP<140 mmHg and DBP<90 mmHg;denominator adults aged 30–79 with hypertension.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 19,
+        "bbox_normalized": [
+          0.08,
+          0.66,
+          0.91,
+          0.83
+        ],
+        "description": "Table1 Effective treatment coverage definition"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-text-02",
+    "group": "text",
+    "question": "According to the explanatory notes, how is the number of adults 30–79 with hypertension in 2019 calculated?",
+    "answerable": true,
+    "expected_answer": "Multiply crude hypertension prevalence by the population aged 30–79 from the 2019 UNWorld Population Prospects.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 284,
+        "bbox_normalized": [
+          0.3,
+          0.48,
+          0.91,
+          0.64
+        ],
+        "description": "Number of adults30–79with hypertension2019 definition"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-text-03",
+    "group": "text",
+    "question": "According to the explanatory notes, what data source and year supply national targets for salt and blood pressure, and what evidence is required to count a target?",
+    "answerable": true,
+    "expected_answer": "WHO 2021 NCDcountry capacity survey;countries counted as having targets submitted evidence/documentation of targets to WHO.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 288,
+        "bbox_normalized": [
+          0.3,
+          0.42,
+          0.91,
+          0.75
+        ],
+        "description": "National targets definition under National response"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-text-04",
+    "group": "text",
+    "question": "What does section 2.6 identify as the theoretical minimum-risk systolic blood pressure range used in the 2019 mortality comparison?",
+    "answerable": true,
+    "expected_answer": "110–115 mmHg.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 29,
+        "bbox_normalized": [
+          0.08,
+          0.08,
+          0.72,
+          0.43
+        ],
+        "description": "Section2.6 theoretical minimum risk level"
+      }
+    ],
+    "calculation": null,
+    "absence_check": null,
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-unanswerable-01",
+    "group": "unanswerable",
+    "question": "What measured hypertension control percentage for Viet Nam in 2024 does this report give?",
+    "answerable": false,
+    "expected_answer": "Abstain:no measured 2024 Viet Nam control percentage.",
+    "evidence": [],
+    "calculation": null,
+    "absence_check": "Inspect Viet Nam profile, explanatory notes, publication year and document-wide Vietnam/2024 searches;2019observations and scenario projections are different quantities.",
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-unanswerable-02",
+    "group": "unanswerable",
+    "question": "What is Monaco’s both-sex age-standardized hypertension prevalence among adults 30–79 in 2019 in this report?",
+    "answerable": false,
+    "expected_answer": "Abstain:Monaco prevalence is marked no data.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 202,
+        "bbox_normalized": [
+          0.05,
+          0.08,
+          0.95,
+          0.14
+        ],
+        "description": "Monaco headline prevalence no data"
+      }
+    ],
+    "calculation": null,
+    "absence_check": "Inspect original Monaco profile:headline no data and graph Data not available;no supported numerical estimate elsewhere.",
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-unanswerable-03",
+    "group": "unanswerable",
+    "question": "What percentage of adults with hypertension in San Marino were treated in 2019, according to its profile?",
+    "answerable": false,
+    "expected_answer": "Abstain:San Marino cascade data are unavailable.",
+    "evidence": [
+      {
+        "source_id": "who_hypertension_2023",
+        "pdf_page": 239,
+        "bbox_normalized": [
+          0.5,
+          0.14,
+          0.94,
+          0.35
+        ],
+        "description": "San Marino treatment cascade Data not available"
+      }
+    ],
+    "calculation": null,
+    "absence_check": "Inspect original San Marino profile and country mentions;cascade panel explicitly Data not available.",
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-unanswerable-04",
+    "group": "unanswerable",
+    "question": "What exact unit price per amlodipine tablet did Telangana pay in 2020/21?",
+    "answerable": false,
+    "expected_answer": "Abstain:procurement volume is reported but not this unit price.",
+    "evidence": [],
+    "calculation": null,
+    "absence_check": "Search amlodipine/Telangana/procurement/price and inspect Box4/Fig15/Table5;volume in millions does not establish a tablet procurement price.",
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-unanswerable-05",
+    "group": "unanswerable",
+    "question": "How many HEARTS patients in Nepal missed their follow-up appointment in June 2023?",
+    "answerable": false,
+    "expected_answer": "Abstain:no Nepal monthly patient follow-up count.",
+    "evidence": [],
+    "calculation": null,
+    "absence_check": "Search Nepal/follow-up/June and inspect map/country profile/monitoring discussion;no June2023Nepal appointment cohort is reported.",
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  },
+  {
+    "id": "test-unanswerable-06",
+    "group": "unanswerable",
+    "question": "What are the individual blood pressure readings and names of participants in the Viet Nam hypertension estimate?",
+    "answerable": false,
+    "expected_answer": "Abstain:only aggregate estimates, no named participant records.",
+    "evidence": [],
+    "calculation": null,
+    "absence_check": "Inspect Viet Nam profile, population-study methodology and searches participant/name/readings;no individual Viet Nam clinical records appear.",
+    "reference": "Original WHO PDF; physical page numbers; visual evidence review, not OCR-only."
+  }
+]
